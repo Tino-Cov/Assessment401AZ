@@ -8,7 +8,7 @@ namespace Assessment401AZ.Models
 {
     public class ProjectManager
     {
-        private int ManagerID { get; set; }
+        public int ManagerID { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public DateTime Dateofbirth { get; set; }

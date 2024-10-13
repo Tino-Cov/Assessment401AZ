@@ -142,7 +142,7 @@ namespace Assessment401AZ.GUI
             txtStreet.Clear();
             txtCity.Clear();
             txtPostCode.Clear();
-            txtPostCode.Clear();
+        
         }
 
         private void label5_Click(object sender, EventArgs e)

@@ -10,7 +10,7 @@ namespace Assessment401AZ.Models
     {
         public int ProjectName { get; set; }
 
-        public int ProjectId { get; set; }
+        public int ProjectID { get; set; }
 
         public string ProjectAddress { get; set; }
 
