@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gambi\\source\\repos\\Assessment401AZ\\Assessment401AZ\\Assessment401AZ.csproj": {}
+    "C:\\Users\\gambi\\Desktop\\Assessment401AZ\\Assessment401AZ\\Assessment401AZ.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gambi\\source\\repos\\Assessment401AZ\\Assessment401AZ\\Assessment401AZ.csproj": {
+    "C:\\Users\\gambi\\Desktop\\Assessment401AZ\\Assessment401AZ\\Assessment401AZ.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gambi\\source\\repos\\Assessment401AZ\\Assessment401AZ\\Assessment401AZ.csproj",
+        "projectUniqueName": "C:\\Users\\gambi\\Desktop\\Assessment401AZ\\Assessment401AZ\\Assessment401AZ.csproj",
         "projectName": "Assessment401AZ",
-        "projectPath": "C:\\Users\\gambi\\source\\repos\\Assessment401AZ\\Assessment401AZ\\Assessment401AZ.csproj",
+        "projectPath": "C:\\Users\\gambi\\Desktop\\Assessment401AZ\\Assessment401AZ\\Assessment401AZ.csproj",
         "packagesPath": "C:\\Users\\gambi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gambi\\source\\repos\\Assessment401AZ\\Assessment401AZ\\obj\\",
+        "outputPath": "C:\\Users\\gambi\\Desktop\\Assessment401AZ\\Assessment401AZ\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gambi\\AppData\\Roaming\\NuGet\\NuGet.Config",
