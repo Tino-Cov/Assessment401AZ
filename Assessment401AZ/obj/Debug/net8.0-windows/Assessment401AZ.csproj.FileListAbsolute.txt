@@ -1,0 +1,13 @@
+C:\Users\Administrator\Documents\GitHub\Assessment401AZ\Assessment401AZ\obj\Debug\net8.0-windows\Assessment401AZ.csproj.AssemblyReference.cache
+C:\Users\Administrator\Documents\GitHub\Assessment401AZ\Assessment401AZ\obj\Debug\net8.0-windows\Assessment401AZ.Form1.resources
+C:\Users\Administrator\Documents\GitHub\Assessment401AZ\Assessment401AZ\obj\Debug\net8.0-windows\Assessment401AZ.GUI.AddressForm.resources
+C:\Users\Administrator\Documents\GitHub\Assessment401AZ\Assessment401AZ\obj\Debug\net8.0-windows\Assessment401AZ.GUI.EngineersForm.resources
+C:\Users\Administrator\Documents\GitHub\Assessment401AZ\Assessment401AZ\obj\Debug\net8.0-windows\Assessment401AZ.GUI.ProjectAssignmentForm.resources
+C:\Users\Administrator\Documents\GitHub\Assessment401AZ\Assessment401AZ\obj\Debug\net8.0-windows\Assessment401AZ.GUI.ProjectFilesForm.resources
+C:\Users\Administrator\Documents\GitHub\Assessment401AZ\Assessment401AZ\obj\Debug\net8.0-windows\Assessment401AZ.GUI.ProjectManagerForm.resources
+C:\Users\Administrator\Documents\GitHub\Assessment401AZ\Assessment401AZ\obj\Debug\net8.0-windows\Assessment401AZ.csproj.GenerateResource.cache
+C:\Users\Administrator\Documents\GitHub\Assessment401AZ\Assessment401AZ\obj\Debug\net8.0-windows\Assessment401AZ.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Documents\GitHub\Assessment401AZ\Assessment401AZ\obj\Debug\net8.0-windows\Assessment401AZ.AssemblyInfoInputs.cache
+C:\Users\Administrator\Documents\GitHub\Assessment401AZ\Assessment401AZ\obj\Debug\net8.0-windows\Assessment401AZ.AssemblyInfo.cs
+C:\Users\Administrator\Documents\GitHub\Assessment401AZ\Assessment401AZ\obj\Debug\net8.0-windows\Assessment401AZ.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\GitHub\Assessment401AZ\Assessment401AZ\obj\Debug\net8.0-windows\Assessment401AZ.sourcelink.json

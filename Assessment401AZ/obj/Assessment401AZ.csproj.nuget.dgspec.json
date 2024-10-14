@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gambi\\Desktop\\Assessment401AZ\\Assessment401AZ\\Assessment401AZ.csproj": {}
+    "C:\\Users\\Administrator\\Documents\\GitHub\\Assessment401AZ\\Assessment401AZ\\Assessment401AZ.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gambi\\Desktop\\Assessment401AZ\\Assessment401AZ\\Assessment401AZ.csproj": {
+    "C:\\Users\\Administrator\\Documents\\GitHub\\Assessment401AZ\\Assessment401AZ\\Assessment401AZ.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gambi\\Desktop\\Assessment401AZ\\Assessment401AZ\\Assessment401AZ.csproj",
+        "projectUniqueName": "C:\\Users\\Administrator\\Documents\\GitHub\\Assessment401AZ\\Assessment401AZ\\Assessment401AZ.csproj",
         "projectName": "Assessment401AZ",
-        "projectPath": "C:\\Users\\gambi\\Desktop\\Assessment401AZ\\Assessment401AZ\\Assessment401AZ.csproj",
-        "packagesPath": "C:\\Users\\gambi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gambi\\Desktop\\Assessment401AZ\\Assessment401AZ\\obj\\",
+        "projectPath": "C:\\Users\\Administrator\\Documents\\GitHub\\Assessment401AZ\\Assessment401AZ\\Assessment401AZ.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Administrator\\Documents\\GitHub\\Assessment401AZ\\Assessment401AZ\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\gambi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -69,7 +74,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

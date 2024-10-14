@@ -1,4 +1,5 @@
-﻿namespace Assessment401AZ.GUI
+﻿
+namespace Assessment401AZ.GUI
 {
     partial class ProjectFilesForm
     {
@@ -220,7 +221,6 @@
             Controls.Add(label2);
             Controls.Add(label1);
             Controls.Add(txtManagerID);
-            Controls.Add(txtManagerID);
             Controls.Add(txtEngineerID);
             Controls.Add(txtProjectAddress);
             Controls.Add(txtProjectID);
@@ -251,7 +251,6 @@
         private TextBox txtProjectAddress;
         private TextBox txtEngineerID;
         private TextBox txtManagerID;
-        private TextBox txtManagerID;
         private Label label1;
         private Label label2;
         private Label label3;
@@ -259,5 +258,6 @@
         private Label label5;
         private Label label6;
         private Label label7;
+        private EventHandler label3_Click;
     }
 }

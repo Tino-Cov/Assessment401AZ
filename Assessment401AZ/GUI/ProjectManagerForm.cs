@@ -34,7 +34,7 @@ namespace Assessment401AZ.GUI
                 LastName = txtLastName.Text,
                 EmailAddress = txtEmailAddress.Text,
                 Dateofbirth = dateTimePickerDOB.Value,
-                Tel = txtTel.Text
+                Tel = Convert.ToInt32(txtTel.Text),
             };
 
             projectManagerOperations.AddProjectManager(newProjectManager);
@@ -59,7 +59,7 @@ namespace Assessment401AZ.GUI
                     selectedProjectManager.LastName = txtLastName.Text;
                     selectedProjectManager.EmailAddress = txtEmailAddress.Text;
                     selectedProjectManager.Dateofbirth = dateTimePickerDOB.Value;
-                    selectedProjectManager.Tel = txtTel.Text;
+                    selectedProjectManager.Tel = Convert.ToInt32(txtTel.Text);
 
                     projectManagerOperations.UpdateProjectManager(selectedProjectManager);
                     LoadProjectManagers();

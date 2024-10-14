@@ -1,4 +1,5 @@
-﻿namespace Assessment401AZ.GUI
+﻿
+namespace Assessment401AZ.GUI
 {
     partial class ProjectManagerForm
     {
@@ -65,6 +66,7 @@
             ADD.TabIndex = 1;
             ADD.Text = "ADD";
             ADD.UseVisualStyleBackColor = true;
+            ADD.Click += ADD_Click;
             // 
             // Go_To_ProjectAssignment
             // 
@@ -83,6 +85,7 @@
             DELETE.TabIndex = 3;
             DELETE.Text = "DELETE";
             DELETE.UseVisualStyleBackColor = true;
+            DELETE.Click += DELETE_Click;
             // 
             // UPDATE
             // 
@@ -92,6 +95,7 @@
             UPDATE.TabIndex = 4;
             UPDATE.Text = "UPDATE";
             UPDATE.UseVisualStyleBackColor = true;
+            UPDATE.Click += UPDATE_Click;
             // 
             // label1
             // 
@@ -119,7 +123,7 @@
             label3.Size = new Size(66, 15);
             label3.TabIndex = 7;
             label3.Text = "LastName :";
-            label3.Click += label3_Click;
+            
             // 
             // label4
             // 
@@ -129,7 +133,7 @@
             label4.Size = new Size(27, 15);
             label4.TabIndex = 8;
             label4.Text = "Tel :";
-            label4.Click += label4_Click;
+            
             // 
             // label5
             // 
@@ -139,7 +143,7 @@
             label5.Size = new Size(73, 15);
             label5.TabIndex = 9;
             label5.Text = "Dateofbirth :";
-            label5.Click += label5_Click;
+            
             // 
             // label6
             // 
@@ -149,7 +153,7 @@
             label6.Size = new Size(84, 15);
             label6.TabIndex = 10;
             label6.Text = "EmailAddress :";
-            label6.Click += label6_Click;
+            
             // 
             // txtManagerID
             // 
@@ -253,5 +257,9 @@
         private TextBox txtEmailAddress;
         private DateTimePicker dateTimePickerDOB;
         private Button Go_To_ProjectFiles;
+        private EventHandler label4_Click;
+        private EventHandler label5_Click;
+        private EventHandler label6_Click;
+        private EventHandler textBox1_TextChanged;
     }
 }

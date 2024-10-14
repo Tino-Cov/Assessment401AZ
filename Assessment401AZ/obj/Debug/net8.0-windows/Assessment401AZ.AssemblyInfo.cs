@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Assessment401AZ")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5eaa08b183221d8d9bb965d2ca87103bfab4f201")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+74cfc5b398e88b1f2a583808b60c5cd84b0623c4")]
 [assembly: System.Reflection.AssemblyProductAttribute("Assessment401AZ")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Assessment401AZ")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

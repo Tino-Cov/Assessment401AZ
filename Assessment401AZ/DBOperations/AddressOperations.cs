@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Assessment401AZ.DBOperations
 {
-    public class Address
+    public class AddressOperations 
     {
         private readonly DataAccess dataAccess = new DataAccess();
 
@@ -20,7 +20,7 @@ namespace Assessment401AZ.DBOperations
 
             command.Parameters.AddWithValue("@p_street", address.Street);
             command.Parameters.AddWithValue("@p_city", address.City);
-            command.Parameters.AddWithValue("@p_postcode", address.Postcode);
+            command.Parameters.AddWithValue("@p_postcode", address.PostCode);
 
             dataAccess.ExecuteNonQuery(command);
         }

@@ -1,109 +1,109 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\gambi\\Desktop\\Assessment401AZ\\",
+  "WorkspaceRootPath": "C:\\Users\\Administrator\\Documents\\GitHub\\Assessment401AZ\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{22A5D1E2-2BF6-48B3-9F1B-84D90F5EF56B}|Assessment401AZ\\Assessment401AZ.csproj|C:\\Users\\gambi\\Desktop\\Assessment401AZ\\assessment401az\\gui\\projectassignmentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{22A5D1E2-2BF6-48B3-9F1B-84D90F5EF56B}|Assessment401AZ\\Assessment401AZ.csproj|solutionrelative:assessment401az\\gui\\projectassignmentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{22A5D1E2-2BF6-48B3-9F1B-84D90F5EF56B}|Assessment401AZ\\Assessment401AZ.csproj|c:\\users\\gambi\\desktop\\assessment401az\\assessment401az\\gui\\projectassignmentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{22A5D1E2-2BF6-48B3-9F1B-84D90F5EF56B}|Assessment401AZ\\Assessment401AZ.csproj|solutionrelative:assessment401az\\gui\\projectassignmentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{22A5D1E2-2BF6-48B3-9F1B-84D90F5EF56B}|Assessment401AZ\\Assessment401AZ.csproj|c:\\users\\gambi\\desktop\\assessment401az\\assessment401az\\models\\projectmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{22A5D1E2-2BF6-48B3-9F1B-84D90F5EF56B}|Assessment401AZ\\Assessment401AZ.csproj|solutionrelative:assessment401az\\models\\projectmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{22A5D1E2-2BF6-48B3-9F1B-84D90F5EF56B}|Assessment401AZ\\Assessment401AZ.csproj|c:\\users\\gambi\\desktop\\assessment401az\\assessment401az\\gui\\projectfilesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{22A5D1E2-2BF6-48B3-9F1B-84D90F5EF56B}|Assessment401AZ\\Assessment401AZ.csproj|solutionrelative:assessment401az\\gui\\projectfilesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{22A5D1E2-2BF6-48B3-9F1B-84D90F5EF56B}|Assessment401AZ\\Assessment401AZ.csproj|c:\\users\\gambi\\desktop\\assessment401az\\assessment401az\\dboperations\\projectassignmentoperations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{22A5D1E2-2BF6-48B3-9F1B-84D90F5EF56B}|Assessment401AZ\\Assessment401AZ.csproj|solutionrelative:assessment401az\\dboperations\\projectassignmentoperations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{22A5D1E2-2BF6-48B3-9F1B-84D90F5EF56B}|Assessment401AZ\\Assessment401AZ.csproj|c:\\users\\gambi\\desktop\\assessment401az\\assessment401az\\dboperations\\projectfilesoperations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{22A5D1E2-2BF6-48B3-9F1B-84D90F5EF56B}|Assessment401AZ\\Assessment401AZ.csproj|solutionrelative:assessment401az\\dboperations\\projectfilesoperations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{22A5D1E2-2BF6-48B3-9F1B-84D90F5EF56B}|Assessment401AZ\\Assessment401AZ.csproj|c:\\users\\gambi\\desktop\\assessment401az\\assessment401az\\gui\\projectfilesform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{22A5D1E2-2BF6-48B3-9F1B-84D90F5EF56B}|Assessment401AZ\\Assessment401AZ.csproj|solutionrelative:assessment401az\\gui\\projectfilesform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{22A5D1E2-2BF6-48B3-9F1B-84D90F5EF56B}|Assessment401AZ\\Assessment401AZ.csproj|C:\\Users\\gambi\\Desktop\\Assessment401AZ\\assessment401az\\gui\\projectmanagerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{22A5D1E2-2BF6-48B3-9F1B-84D90F5EF56B}|Assessment401AZ\\Assessment401AZ.csproj|solutionrelative:assessment401az\\gui\\projectmanagerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{22A5D1E2-2BF6-48B3-9F1B-84D90F5EF56B}|Assessment401AZ\\Assessment401AZ.csproj|C:\\Users\\gambi\\Desktop\\Assessment401AZ\\assessment401az\\gui\\projectfilesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{22A5D1E2-2BF6-48B3-9F1B-84D90F5EF56B}|Assessment401AZ\\Assessment401AZ.csproj|solutionrelative:assessment401az\\gui\\projectfilesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{22A5D1E2-2BF6-48B3-9F1B-84D90F5EF56B}|Assessment401AZ\\Assessment401AZ.csproj|c:\\users\\gambi\\desktop\\assessment401az\\assessment401az\\gui\\addressform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{22A5D1E2-2BF6-48B3-9F1B-84D90F5EF56B}|Assessment401AZ\\Assessment401AZ.csproj|solutionrelative:assessment401az\\gui\\addressform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{22A5D1E2-2BF6-48B3-9F1B-84D90F5EF56B}|Assessment401AZ\\Assessment401AZ.csproj|c:\\users\\gambi\\desktop\\assessment401az\\assessment401az\\gui\\projectmanagerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{22A5D1E2-2BF6-48B3-9F1B-84D90F5EF56B}|Assessment401AZ\\Assessment401AZ.csproj|solutionrelative:assessment401az\\gui\\projectmanagerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{22A5D1E2-2BF6-48B3-9F1B-84D90F5EF56B}|Assessment401AZ\\Assessment401AZ.csproj|c:\\users\\gambi\\desktop\\assessment401az\\assessment401az\\dboperations\\addressoperations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{22A5D1E2-2BF6-48B3-9F1B-84D90F5EF56B}|Assessment401AZ\\Assessment401AZ.csproj|solutionrelative:assessment401az\\dboperations\\addressoperations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{22A5D1E2-2BF6-48B3-9F1B-84D90F5EF56B}|Assessment401AZ\\Assessment401AZ.csproj|c:\\users\\gambi\\desktop\\assessment401az\\assessment401az\\models\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{22A5D1E2-2BF6-48B3-9F1B-84D90F5EF56B}|Assessment401AZ\\Assessment401AZ.csproj|solutionrelative:assessment401az\\models\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{22A5D1E2-2BF6-48B3-9F1B-84D90F5EF56B}|Assessment401AZ\\Assessment401AZ.csproj|c:\\users\\gambi\\desktop\\assessment401az\\assessment401az\\dataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{22A5D1E2-2BF6-48B3-9F1B-84D90F5EF56B}|Assessment401AZ\\Assessment401AZ.csproj|solutionrelative:assessment401az\\dataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{22A5D1E2-2BF6-48B3-9F1B-84D90F5EF56B}|Assessment401AZ\\Assessment401AZ.csproj|c:\\users\\gambi\\desktop\\assessment401az\\assessment401az\\dboperations\\projectmanageroperations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{22A5D1E2-2BF6-48B3-9F1B-84D90F5EF56B}|Assessment401AZ\\Assessment401AZ.csproj|solutionrelative:assessment401az\\dboperations\\projectmanageroperations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{22A5D1E2-2BF6-48B3-9F1B-84D90F5EF56B}|Assessment401AZ\\Assessment401AZ.csproj|c:\\users\\gambi\\desktop\\assessment401az\\assessment401az\\dboperations\\engineersoperations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{22A5D1E2-2BF6-48B3-9F1B-84D90F5EF56B}|Assessment401AZ\\Assessment401AZ.csproj|solutionrelative:assessment401az\\dboperations\\engineersoperations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{22A5D1E2-2BF6-48B3-9F1B-84D90F5EF56B}|Assessment401AZ\\Assessment401AZ.csproj|c:\\users\\gambi\\desktop\\assessment401az\\assessment401az\\models\\projectassignment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{22A5D1E2-2BF6-48B3-9F1B-84D90F5EF56B}|Assessment401AZ\\Assessment401AZ.csproj|solutionrelative:assessment401az\\models\\projectassignment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{22A5D1E2-2BF6-48B3-9F1B-84D90F5EF56B}|Assessment401AZ\\Assessment401AZ.csproj|c:\\users\\gambi\\desktop\\assessment401az\\assessment401az\\models\\engineers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{22A5D1E2-2BF6-48B3-9F1B-84D90F5EF56B}|Assessment401AZ\\Assessment401AZ.csproj|solutionrelative:assessment401az\\models\\engineers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{22A5D1E2-2BF6-48B3-9F1B-84D90F5EF56B}|Assessment401AZ\\Assessment401AZ.csproj|c:\\users\\gambi\\desktop\\assessment401az\\assessment401az\\models\\projectfiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{22A5D1E2-2BF6-48B3-9F1B-84D90F5EF56B}|Assessment401AZ\\Assessment401AZ.csproj|solutionrelative:assessment401az\\models\\projectfiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{22A5D1E2-2BF6-48B3-9F1B-84D90F5EF56B}|Assessment401AZ\\Assessment401AZ.csproj|c:\\users\\gambi\\desktop\\assessment401az\\assessment401az\\gui\\addressform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{22A5D1E2-2BF6-48B3-9F1B-84D90F5EF56B}|Assessment401AZ\\Assessment401AZ.csproj|solutionrelative:assessment401az\\gui\\addressform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{22A5D1E2-2BF6-48B3-9F1B-84D90F5EF56B}|Assessment401AZ\\Assessment401AZ.csproj|C:\\Users\\gambi\\Desktop\\Assessment401AZ\\assessment401az\\gui\\addressform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{22A5D1E2-2BF6-48B3-9F1B-84D90F5EF56B}|Assessment401AZ\\Assessment401AZ.csproj|solutionrelative:assessment401az\\gui\\addressform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{22A5D1E2-2BF6-48B3-9F1B-84D90F5EF56B}|Assessment401AZ\\Assessment401AZ.csproj|c:\\users\\gambi\\desktop\\assessment401az\\assessment401az\\gui\\engineersform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{22A5D1E2-2BF6-48B3-9F1B-84D90F5EF56B}|Assessment401AZ\\Assessment401AZ.csproj|solutionrelative:assessment401az\\gui\\engineersform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{22A5D1E2-2BF6-48B3-9F1B-84D90F5EF56B}|Assessment401AZ\\Assessment401AZ.csproj|c:\\users\\gambi\\desktop\\assessment401az\\assessment401az\\gui\\engineersform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{22A5D1E2-2BF6-48B3-9F1B-84D90F5EF56B}|Assessment401AZ\\Assessment401AZ.csproj|solutionrelative:assessment401az\\gui\\engineersform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{22A5D1E2-2BF6-48B3-9F1B-84D90F5EF56B}|Assessment401AZ\\Assessment401AZ.csproj|C:\\Users\\gambi\\Desktop\\Assessment401AZ\\assessment401az\\gui\\engineersform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{22A5D1E2-2BF6-48B3-9F1B-84D90F5EF56B}|Assessment401AZ\\Assessment401AZ.csproj|solutionrelative:assessment401az\\gui\\engineersform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{22A5D1E2-2BF6-48B3-9F1B-84D90F5EF56B}|Assessment401AZ\\Assessment401AZ.csproj|c:\\users\\gambi\\desktop\\assessment401az\\assessment401az\\gui\\projectmanagerform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{22A5D1E2-2BF6-48B3-9F1B-84D90F5EF56B}|Assessment401AZ\\Assessment401AZ.csproj|c:\\users\\administrator\\documents\\github\\assessment401az\\assessment401az\\gui\\projectmanagerform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{22A5D1E2-2BF6-48B3-9F1B-84D90F5EF56B}|Assessment401AZ\\Assessment401AZ.csproj|solutionrelative:assessment401az\\gui\\projectmanagerform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{22A5D1E2-2BF6-48B3-9F1B-84D90F5EF56B}|Assessment401AZ\\Assessment401AZ.csproj|c:\\users\\gambi\\desktop\\assessment401az\\assessment401az\\assessment401az.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{22A5D1E2-2BF6-48B3-9F1B-84D90F5EF56B}|Assessment401AZ\\Assessment401AZ.csproj|C:\\Users\\Administrator\\Documents\\GitHub\\Assessment401AZ\\assessment401az\\gui\\projectmanagerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{22A5D1E2-2BF6-48B3-9F1B-84D90F5EF56B}|Assessment401AZ\\Assessment401AZ.csproj|solutionrelative:assessment401az\\gui\\projectmanagerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22A5D1E2-2BF6-48B3-9F1B-84D90F5EF56B}|Assessment401AZ\\Assessment401AZ.csproj|c:\\users\\administrator\\documents\\github\\assessment401az\\assessment401az\\gui\\addressform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22A5D1E2-2BF6-48B3-9F1B-84D90F5EF56B}|Assessment401AZ\\Assessment401AZ.csproj|solutionrelative:assessment401az\\gui\\addressform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22A5D1E2-2BF6-48B3-9F1B-84D90F5EF56B}|Assessment401AZ\\Assessment401AZ.csproj|c:\\users\\administrator\\documents\\github\\assessment401az\\assessment401az\\gui\\projectmanagerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22A5D1E2-2BF6-48B3-9F1B-84D90F5EF56B}|Assessment401AZ\\Assessment401AZ.csproj|solutionrelative:assessment401az\\gui\\projectmanagerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22A5D1E2-2BF6-48B3-9F1B-84D90F5EF56B}|Assessment401AZ\\Assessment401AZ.csproj|c:\\users\\administrator\\documents\\github\\assessment401az\\assessment401az\\gui\\projectfilesform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22A5D1E2-2BF6-48B3-9F1B-84D90F5EF56B}|Assessment401AZ\\Assessment401AZ.csproj|solutionrelative:assessment401az\\gui\\projectfilesform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22A5D1E2-2BF6-48B3-9F1B-84D90F5EF56B}|Assessment401AZ\\Assessment401AZ.csproj|c:\\users\\administrator\\documents\\github\\assessment401az\\assessment401az\\models\\projectfiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22A5D1E2-2BF6-48B3-9F1B-84D90F5EF56B}|Assessment401AZ\\Assessment401AZ.csproj|solutionrelative:assessment401az\\models\\projectfiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22A5D1E2-2BF6-48B3-9F1B-84D90F5EF56B}|Assessment401AZ\\Assessment401AZ.csproj|c:\\users\\administrator\\documents\\github\\assessment401az\\assessment401az\\dataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22A5D1E2-2BF6-48B3-9F1B-84D90F5EF56B}|Assessment401AZ\\Assessment401AZ.csproj|solutionrelative:assessment401az\\dataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22A5D1E2-2BF6-48B3-9F1B-84D90F5EF56B}|Assessment401AZ\\Assessment401AZ.csproj|c:\\users\\administrator\\documents\\github\\assessment401az\\assessment401az\\dboperations\\addressoperations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22A5D1E2-2BF6-48B3-9F1B-84D90F5EF56B}|Assessment401AZ\\Assessment401AZ.csproj|solutionrelative:assessment401az\\dboperations\\addressoperations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22A5D1E2-2BF6-48B3-9F1B-84D90F5EF56B}|Assessment401AZ\\Assessment401AZ.csproj|c:\\users\\administrator\\documents\\github\\assessment401az\\assessment401az\\dboperations\\projectmanageroperations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22A5D1E2-2BF6-48B3-9F1B-84D90F5EF56B}|Assessment401AZ\\Assessment401AZ.csproj|solutionrelative:assessment401az\\dboperations\\projectmanageroperations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22A5D1E2-2BF6-48B3-9F1B-84D90F5EF56B}|Assessment401AZ\\Assessment401AZ.csproj|c:\\users\\administrator\\documents\\github\\assessment401az\\assessment401az\\models\\projectmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22A5D1E2-2BF6-48B3-9F1B-84D90F5EF56B}|Assessment401AZ\\Assessment401AZ.csproj|solutionrelative:assessment401az\\models\\projectmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22A5D1E2-2BF6-48B3-9F1B-84D90F5EF56B}|Assessment401AZ\\Assessment401AZ.csproj|C:\\Users\\Administrator\\Documents\\GitHub\\Assessment401AZ\\assessment401az\\gui\\projectfilesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{22A5D1E2-2BF6-48B3-9F1B-84D90F5EF56B}|Assessment401AZ\\Assessment401AZ.csproj|solutionrelative:assessment401az\\gui\\projectfilesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22A5D1E2-2BF6-48B3-9F1B-84D90F5EF56B}|Assessment401AZ\\Assessment401AZ.csproj|C:\\Users\\Administrator\\Documents\\GitHub\\Assessment401AZ\\assessment401az\\gui\\projectassignmentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{22A5D1E2-2BF6-48B3-9F1B-84D90F5EF56B}|Assessment401AZ\\Assessment401AZ.csproj|solutionrelative:assessment401az\\gui\\projectassignmentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22A5D1E2-2BF6-48B3-9F1B-84D90F5EF56B}|Assessment401AZ\\Assessment401AZ.csproj|c:\\users\\administrator\\documents\\github\\assessment401az\\assessment401az\\gui\\projectassignmentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22A5D1E2-2BF6-48B3-9F1B-84D90F5EF56B}|Assessment401AZ\\Assessment401AZ.csproj|solutionrelative:assessment401az\\gui\\projectassignmentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22A5D1E2-2BF6-48B3-9F1B-84D90F5EF56B}|Assessment401AZ\\Assessment401AZ.csproj|c:\\users\\administrator\\documents\\github\\assessment401az\\assessment401az\\gui\\projectfilesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22A5D1E2-2BF6-48B3-9F1B-84D90F5EF56B}|Assessment401AZ\\Assessment401AZ.csproj|solutionrelative:assessment401az\\gui\\projectfilesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22A5D1E2-2BF6-48B3-9F1B-84D90F5EF56B}|Assessment401AZ\\Assessment401AZ.csproj|c:\\users\\administrator\\documents\\github\\assessment401az\\assessment401az\\dboperations\\projectassignmentoperations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22A5D1E2-2BF6-48B3-9F1B-84D90F5EF56B}|Assessment401AZ\\Assessment401AZ.csproj|solutionrelative:assessment401az\\dboperations\\projectassignmentoperations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22A5D1E2-2BF6-48B3-9F1B-84D90F5EF56B}|Assessment401AZ\\Assessment401AZ.csproj|c:\\users\\administrator\\documents\\github\\assessment401az\\assessment401az\\dboperations\\projectfilesoperations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22A5D1E2-2BF6-48B3-9F1B-84D90F5EF56B}|Assessment401AZ\\Assessment401AZ.csproj|solutionrelative:assessment401az\\dboperations\\projectfilesoperations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22A5D1E2-2BF6-48B3-9F1B-84D90F5EF56B}|Assessment401AZ\\Assessment401AZ.csproj|c:\\users\\administrator\\documents\\github\\assessment401az\\assessment401az\\models\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22A5D1E2-2BF6-48B3-9F1B-84D90F5EF56B}|Assessment401AZ\\Assessment401AZ.csproj|solutionrelative:assessment401az\\models\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22A5D1E2-2BF6-48B3-9F1B-84D90F5EF56B}|Assessment401AZ\\Assessment401AZ.csproj|c:\\users\\administrator\\documents\\github\\assessment401az\\assessment401az\\dboperations\\engineersoperations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22A5D1E2-2BF6-48B3-9F1B-84D90F5EF56B}|Assessment401AZ\\Assessment401AZ.csproj|solutionrelative:assessment401az\\dboperations\\engineersoperations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22A5D1E2-2BF6-48B3-9F1B-84D90F5EF56B}|Assessment401AZ\\Assessment401AZ.csproj|c:\\users\\administrator\\documents\\github\\assessment401az\\assessment401az\\models\\projectassignment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22A5D1E2-2BF6-48B3-9F1B-84D90F5EF56B}|Assessment401AZ\\Assessment401AZ.csproj|solutionrelative:assessment401az\\models\\projectassignment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22A5D1E2-2BF6-48B3-9F1B-84D90F5EF56B}|Assessment401AZ\\Assessment401AZ.csproj|c:\\users\\administrator\\documents\\github\\assessment401az\\assessment401az\\models\\engineers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22A5D1E2-2BF6-48B3-9F1B-84D90F5EF56B}|Assessment401AZ\\Assessment401AZ.csproj|solutionrelative:assessment401az\\models\\engineers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22A5D1E2-2BF6-48B3-9F1B-84D90F5EF56B}|Assessment401AZ\\Assessment401AZ.csproj|c:\\users\\administrator\\documents\\github\\assessment401az\\assessment401az\\gui\\addressform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22A5D1E2-2BF6-48B3-9F1B-84D90F5EF56B}|Assessment401AZ\\Assessment401AZ.csproj|solutionrelative:assessment401az\\gui\\addressform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22A5D1E2-2BF6-48B3-9F1B-84D90F5EF56B}|Assessment401AZ\\Assessment401AZ.csproj|C:\\Users\\Administrator\\Documents\\GitHub\\Assessment401AZ\\assessment401az\\gui\\addressform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{22A5D1E2-2BF6-48B3-9F1B-84D90F5EF56B}|Assessment401AZ\\Assessment401AZ.csproj|solutionrelative:assessment401az\\gui\\addressform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22A5D1E2-2BF6-48B3-9F1B-84D90F5EF56B}|Assessment401AZ\\Assessment401AZ.csproj|c:\\users\\administrator\\documents\\github\\assessment401az\\assessment401az\\gui\\engineersform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22A5D1E2-2BF6-48B3-9F1B-84D90F5EF56B}|Assessment401AZ\\Assessment401AZ.csproj|solutionrelative:assessment401az\\gui\\engineersform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22A5D1E2-2BF6-48B3-9F1B-84D90F5EF56B}|Assessment401AZ\\Assessment401AZ.csproj|c:\\users\\administrator\\documents\\github\\assessment401az\\assessment401az\\gui\\engineersform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22A5D1E2-2BF6-48B3-9F1B-84D90F5EF56B}|Assessment401AZ\\Assessment401AZ.csproj|solutionrelative:assessment401az\\gui\\engineersform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22A5D1E2-2BF6-48B3-9F1B-84D90F5EF56B}|Assessment401AZ\\Assessment401AZ.csproj|C:\\Users\\Administrator\\Documents\\GitHub\\Assessment401AZ\\assessment401az\\gui\\engineersform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{22A5D1E2-2BF6-48B3-9F1B-84D90F5EF56B}|Assessment401AZ\\Assessment401AZ.csproj|solutionrelative:assessment401az\\gui\\engineersform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22A5D1E2-2BF6-48B3-9F1B-84D90F5EF56B}|Assessment401AZ\\Assessment401AZ.csproj|c:\\users\\administrator\\documents\\github\\assessment401az\\assessment401az\\assessment401az.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{22A5D1E2-2BF6-48B3-9F1B-84D90F5EF56B}|Assessment401AZ\\Assessment401AZ.csproj|solutionrelative:assessment401az\\assessment401az.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
@@ -114,105 +114,191 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ProjectAssignmentForm.cs",
-              "DocumentMoniker": "C:\\Users\\gambi\\Desktop\\Assessment401AZ\\Assessment401AZ\\GUI\\ProjectAssignmentForm.cs",
-              "RelativeDocumentMoniker": "Assessment401AZ\\GUI\\ProjectAssignmentForm.cs",
-              "ToolTip": "C:\\Users\\gambi\\Desktop\\Assessment401AZ\\Assessment401AZ\\GUI\\ProjectAssignmentForm.cs",
-              "RelativeToolTip": "Assessment401AZ\\GUI\\ProjectAssignmentForm.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAwwDoAAAARAAAAAAAAAA==",
+              "Title": "ProjectManagerForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Assessment401AZ\\Assessment401AZ\\GUI\\ProjectManagerForm.cs",
+              "RelativeDocumentMoniker": "Assessment401AZ\\GUI\\ProjectManagerForm.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Assessment401AZ\\Assessment401AZ\\GUI\\ProjectManagerForm.cs [Design]",
+              "RelativeToolTip": "Assessment401AZ\\GUI\\ProjectManagerForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T20:31:49.045Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ProjectAssignmentForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\gambi\\Desktop\\Assessment401AZ\\Assessment401AZ\\GUI\\ProjectAssignmentForm.cs",
-              "RelativeDocumentMoniker": "Assessment401AZ\\GUI\\ProjectAssignmentForm.cs",
-              "ToolTip": "C:\\Users\\gambi\\Desktop\\Assessment401AZ\\Assessment401AZ\\GUI\\ProjectAssignmentForm.cs [Design]",
-              "RelativeToolTip": "Assessment401AZ\\GUI\\ProjectAssignmentForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T13:54:59.386Z",
+              "WhenOpened": "2024-10-14T11:47:51.206Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ProjectManagerForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\gambi\\Desktop\\Assessment401AZ\\Assessment401AZ\\GUI\\ProjectManagerForm.cs",
-              "RelativeDocumentMoniker": "Assessment401AZ\\GUI\\ProjectManagerForm.cs",
-              "ToolTip": "C:\\Users\\gambi\\Desktop\\Assessment401AZ\\Assessment401AZ\\GUI\\ProjectManagerForm.cs [Design]",
-              "RelativeToolTip": "Assessment401AZ\\GUI\\ProjectManagerForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T16:43:48.79Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ProjectFilesForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\gambi\\Desktop\\Assessment401AZ\\Assessment401AZ\\GUI\\ProjectFilesForm.cs",
-              "RelativeDocumentMoniker": "Assessment401AZ\\GUI\\ProjectFilesForm.cs",
-              "ToolTip": "C:\\Users\\gambi\\Desktop\\Assessment401AZ\\Assessment401AZ\\GUI\\ProjectFilesForm.cs [Design]",
-              "RelativeToolTip": "Assessment401AZ\\GUI\\ProjectFilesForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T13:55:34.693Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ProjectFilesForm.cs",
-              "DocumentMoniker": "C:\\Users\\gambi\\Desktop\\Assessment401AZ\\Assessment401AZ\\GUI\\ProjectFilesForm.cs",
-              "RelativeDocumentMoniker": "Assessment401AZ\\GUI\\ProjectFilesForm.cs",
-              "ToolTip": "C:\\Users\\gambi\\Desktop\\Assessment401AZ\\Assessment401AZ\\GUI\\ProjectFilesForm.cs",
-              "RelativeToolTip": "Assessment401AZ\\GUI\\ProjectFilesForm.cs",
-              "ViewState": "AgIAAH8AAAAAAAAAAAAYwKIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T19:36:39.523Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ProjectManager.cs",
-              "DocumentMoniker": "C:\\Users\\gambi\\Desktop\\Assessment401AZ\\Assessment401AZ\\Models\\ProjectManager.cs",
-              "RelativeDocumentMoniker": "Assessment401AZ\\Models\\ProjectManager.cs",
-              "ToolTip": "C:\\Users\\gambi\\Desktop\\Assessment401AZ\\Assessment401AZ\\Models\\ProjectManager.cs",
-              "RelativeToolTip": "Assessment401AZ\\Models\\ProjectManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBIAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T13:51:24.715Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
               "Title": "AddressForm.cs",
-              "DocumentMoniker": "C:\\Users\\gambi\\Desktop\\Assessment401AZ\\Assessment401AZ\\GUI\\AddressForm.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Assessment401AZ\\Assessment401AZ\\GUI\\AddressForm.cs",
               "RelativeDocumentMoniker": "Assessment401AZ\\GUI\\AddressForm.cs",
-              "ToolTip": "C:\\Users\\gambi\\Desktop\\Assessment401AZ\\Assessment401AZ\\GUI\\AddressForm.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Assessment401AZ\\Assessment401AZ\\GUI\\AddressForm.cs",
               "RelativeToolTip": "Assessment401AZ\\GUI\\AddressForm.cs",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAIwJEAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAACYAAAAAAAAAAADgv1AAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-13T18:02:01.677Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProjectManagerForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Assessment401AZ\\Assessment401AZ\\GUI\\ProjectManagerForm.Designer.cs",
+              "RelativeDocumentMoniker": "Assessment401AZ\\GUI\\ProjectManagerForm.Designer.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Assessment401AZ\\Assessment401AZ\\GUI\\ProjectManagerForm.Designer.cs",
+              "RelativeToolTip": "Assessment401AZ\\GUI\\ProjectManagerForm.Designer.cs",
+              "ViewState": "AgIAAL8AAAAAAAAAAAAMwKYAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T15:35:00.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProjectFilesForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Assessment401AZ\\Assessment401AZ\\GUI\\ProjectFilesForm.Designer.cs",
+              "RelativeDocumentMoniker": "Assessment401AZ\\GUI\\ProjectFilesForm.Designer.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Assessment401AZ\\Assessment401AZ\\GUI\\ProjectFilesForm.Designer.cs",
+              "RelativeToolTip": "Assessment401AZ\\GUI\\ProjectFilesForm.Designer.cs",
+              "ViewState": "AgIAAKEAAAAAAAAAAAAtwPwAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T20:10:48.518Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProjectManagerForm.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Assessment401AZ\\Assessment401AZ\\GUI\\ProjectManagerForm.cs",
+              "RelativeDocumentMoniker": "Assessment401AZ\\GUI\\ProjectManagerForm.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Assessment401AZ\\Assessment401AZ\\GUI\\ProjectManagerForm.cs",
+              "RelativeToolTip": "Assessment401AZ\\GUI\\ProjectManagerForm.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAowBYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T15:34:50.744Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "ProjectFiles.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Assessment401AZ\\Assessment401AZ\\Models\\ProjectFiles.cs",
+              "RelativeDocumentMoniker": "Assessment401AZ\\Models\\ProjectFiles.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Assessment401AZ\\Assessment401AZ\\Models\\ProjectFiles.cs",
+              "RelativeToolTip": "Assessment401AZ\\Models\\ProjectFiles.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T13:51:00.131Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DataAccess.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Assessment401AZ\\Assessment401AZ\\DataAccess.cs",
+              "RelativeDocumentMoniker": "Assessment401AZ\\DataAccess.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Assessment401AZ\\Assessment401AZ\\DataAccess.cs",
+              "RelativeToolTip": "Assessment401AZ\\DataAccess.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T14:07:30.987Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AddressOperations.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Assessment401AZ\\Assessment401AZ\\DBOperations\\AddressOperations.cs",
+              "RelativeDocumentMoniker": "Assessment401AZ\\DBOperations\\AddressOperations.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Assessment401AZ\\Assessment401AZ\\DBOperations\\AddressOperations.cs",
+              "RelativeToolTip": "Assessment401AZ\\DBOperations\\AddressOperations.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T13:52:04.841Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProjectManagerOperations.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Assessment401AZ\\Assessment401AZ\\DBOperations\\ProjectManagerOperations.cs",
+              "RelativeDocumentMoniker": "Assessment401AZ\\DBOperations\\ProjectManagerOperations.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Assessment401AZ\\Assessment401AZ\\DBOperations\\ProjectManagerOperations.cs",
+              "RelativeToolTip": "Assessment401AZ\\DBOperations\\ProjectManagerOperations.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAowDEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T13:53:50.97Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ProjectManager.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Assessment401AZ\\Assessment401AZ\\Models\\ProjectManager.cs",
+              "RelativeDocumentMoniker": "Assessment401AZ\\Models\\ProjectManager.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Assessment401AZ\\Assessment401AZ\\Models\\ProjectManager.cs",
+              "RelativeToolTip": "Assessment401AZ\\Models\\ProjectManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T13:51:24.715Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ProjectFilesForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Assessment401AZ\\Assessment401AZ\\GUI\\ProjectFilesForm.cs",
+              "RelativeDocumentMoniker": "Assessment401AZ\\GUI\\ProjectFilesForm.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Assessment401AZ\\Assessment401AZ\\GUI\\ProjectFilesForm.cs [Design]",
+              "RelativeToolTip": "Assessment401AZ\\GUI\\ProjectFilesForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T13:55:34.693Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ProjectAssignmentForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Assessment401AZ\\Assessment401AZ\\GUI\\ProjectAssignmentForm.cs",
+              "RelativeDocumentMoniker": "Assessment401AZ\\GUI\\ProjectAssignmentForm.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Assessment401AZ\\Assessment401AZ\\GUI\\ProjectAssignmentForm.cs [Design]",
+              "RelativeToolTip": "Assessment401AZ\\GUI\\ProjectAssignmentForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T13:54:59.386Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ProjectAssignmentForm.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Assessment401AZ\\Assessment401AZ\\GUI\\ProjectAssignmentForm.cs",
+              "RelativeDocumentMoniker": "Assessment401AZ\\GUI\\ProjectAssignmentForm.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Assessment401AZ\\Assessment401AZ\\GUI\\ProjectAssignmentForm.cs",
+              "RelativeToolTip": "Assessment401AZ\\GUI\\ProjectAssignmentForm.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAwwDoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T20:31:49.045Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ProjectFilesForm.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Assessment401AZ\\Assessment401AZ\\GUI\\ProjectFilesForm.cs",
+              "RelativeDocumentMoniker": "Assessment401AZ\\GUI\\ProjectFilesForm.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Assessment401AZ\\Assessment401AZ\\GUI\\ProjectFilesForm.cs",
+              "RelativeToolTip": "Assessment401AZ\\GUI\\ProjectFilesForm.cs",
+              "ViewState": "AgIAAH8AAAAAAAAAAAAYwKIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T19:36:39.523Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "ProjectFilesOperations.cs",
-              "DocumentMoniker": "C:\\Users\\gambi\\Desktop\\Assessment401AZ\\Assessment401AZ\\DBOperations\\ProjectFilesOperations.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Assessment401AZ\\Assessment401AZ\\DBOperations\\ProjectFilesOperations.cs",
               "RelativeDocumentMoniker": "Assessment401AZ\\DBOperations\\ProjectFilesOperations.cs",
-              "ToolTip": "C:\\Users\\gambi\\Desktop\\Assessment401AZ\\Assessment401AZ\\DBOperations\\ProjectFilesOperations.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Assessment401AZ\\Assessment401AZ\\DBOperations\\ProjectFilesOperations.cs",
               "RelativeToolTip": "Assessment401AZ\\DBOperations\\ProjectFilesOperations.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -220,56 +306,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ProjectFilesForm.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\gambi\\Desktop\\Assessment401AZ\\Assessment401AZ\\GUI\\ProjectFilesForm.Designer.cs",
-              "RelativeDocumentMoniker": "Assessment401AZ\\GUI\\ProjectFilesForm.Designer.cs",
-              "ToolTip": "C:\\Users\\gambi\\Desktop\\Assessment401AZ\\Assessment401AZ\\GUI\\ProjectFilesForm.Designer.cs",
-              "RelativeToolTip": "Assessment401AZ\\GUI\\ProjectFilesForm.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T20:10:48.518Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 14,
               "Title": "ProjectAssignmentOperations.cs",
-              "DocumentMoniker": "C:\\Users\\gambi\\Desktop\\Assessment401AZ\\Assessment401AZ\\DBOperations\\ProjectAssignmentOperations.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Assessment401AZ\\Assessment401AZ\\DBOperations\\ProjectAssignmentOperations.cs",
               "RelativeDocumentMoniker": "Assessment401AZ\\DBOperations\\ProjectAssignmentOperations.cs",
-              "ToolTip": "C:\\Users\\gambi\\Desktop\\Assessment401AZ\\Assessment401AZ\\DBOperations\\ProjectAssignmentOperations.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Assessment401AZ\\Assessment401AZ\\DBOperations\\ProjectAssignmentOperations.cs",
               "RelativeToolTip": "Assessment401AZ\\DBOperations\\ProjectAssignmentOperations.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAACwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T13:53:20.85Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+              "WhenOpened": "2024-10-13T13:53:20.85Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "AddressOperations.cs",
-              "DocumentMoniker": "C:\\Users\\gambi\\Desktop\\Assessment401AZ\\Assessment401AZ\\DBOperations\\AddressOperations.cs",
-              "RelativeDocumentMoniker": "Assessment401AZ\\DBOperations\\AddressOperations.cs",
-              "ToolTip": "C:\\Users\\gambi\\Desktop\\Assessment401AZ\\Assessment401AZ\\DBOperations\\AddressOperations.cs",
-              "RelativeToolTip": "Assessment401AZ\\DBOperations\\AddressOperations.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABkAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T13:52:04.841Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
               "Title": "Address.cs",
-              "DocumentMoniker": "C:\\Users\\gambi\\Desktop\\Assessment401AZ\\Assessment401AZ\\Models\\Address.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Assessment401AZ\\Assessment401AZ\\Models\\Address.cs",
               "RelativeDocumentMoniker": "Assessment401AZ\\Models\\Address.cs",
-              "ToolTip": "C:\\Users\\gambi\\Desktop\\Assessment401AZ\\Assessment401AZ\\Models\\Address.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Assessment401AZ\\Assessment401AZ\\Models\\Address.cs",
               "RelativeToolTip": "Assessment401AZ\\Models\\Address.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -277,47 +330,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "DataAccess.cs",
-              "DocumentMoniker": "C:\\Users\\gambi\\Desktop\\Assessment401AZ\\Assessment401AZ\\DataAccess.cs",
-              "RelativeDocumentMoniker": "Assessment401AZ\\DataAccess.cs",
-              "ToolTip": "C:\\Users\\gambi\\Desktop\\Assessment401AZ\\Assessment401AZ\\DataAccess.cs",
-              "RelativeToolTip": "Assessment401AZ\\DataAccess.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T14:07:30.987Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ProjectManagerForm.cs",
-              "DocumentMoniker": "C:\\Users\\gambi\\Desktop\\Assessment401AZ\\Assessment401AZ\\GUI\\ProjectManagerForm.cs",
-              "RelativeDocumentMoniker": "Assessment401AZ\\GUI\\ProjectManagerForm.cs",
-              "ToolTip": "C:\\Users\\gambi\\Desktop\\Assessment401AZ\\Assessment401AZ\\GUI\\ProjectManagerForm.cs",
-              "RelativeToolTip": "Assessment401AZ\\GUI\\ProjectManagerForm.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T15:34:50.744Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ProjectManagerOperations.cs",
-              "DocumentMoniker": "C:\\Users\\gambi\\Desktop\\Assessment401AZ\\Assessment401AZ\\DBOperations\\ProjectManagerOperations.cs",
-              "RelativeDocumentMoniker": "Assessment401AZ\\DBOperations\\ProjectManagerOperations.cs",
-              "ToolTip": "C:\\Users\\gambi\\Desktop\\Assessment401AZ\\Assessment401AZ\\DBOperations\\ProjectManagerOperations.cs",
-              "RelativeToolTip": "Assessment401AZ\\DBOperations\\ProjectManagerOperations.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAADEAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T13:53:50.97Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "EngineersOperations.cs",
-              "DocumentMoniker": "C:\\Users\\gambi\\Desktop\\Assessment401AZ\\Assessment401AZ\\DBOperations\\EngineersOperations.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Assessment401AZ\\Assessment401AZ\\DBOperations\\EngineersOperations.cs",
               "RelativeDocumentMoniker": "Assessment401AZ\\DBOperations\\EngineersOperations.cs",
-              "ToolTip": "C:\\Users\\gambi\\Desktop\\Assessment401AZ\\Assessment401AZ\\DBOperations\\EngineersOperations.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Assessment401AZ\\Assessment401AZ\\DBOperations\\EngineersOperations.cs",
               "RelativeToolTip": "Assessment401AZ\\DBOperations\\EngineersOperations.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAADIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -325,11 +342,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "ProjectAssignment.cs",
-              "DocumentMoniker": "C:\\Users\\gambi\\Desktop\\Assessment401AZ\\Assessment401AZ\\Models\\ProjectAssignment.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Assessment401AZ\\Assessment401AZ\\Models\\ProjectAssignment.cs",
               "RelativeDocumentMoniker": "Assessment401AZ\\Models\\ProjectAssignment.cs",
-              "ToolTip": "C:\\Users\\gambi\\Desktop\\Assessment401AZ\\Assessment401AZ\\Models\\ProjectAssignment.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Assessment401AZ\\Assessment401AZ\\Models\\ProjectAssignment.cs",
               "RelativeToolTip": "Assessment401AZ\\Models\\ProjectAssignment.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -337,11 +354,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "Engineers.cs",
-              "DocumentMoniker": "C:\\Users\\gambi\\Desktop\\Assessment401AZ\\Assessment401AZ\\Models\\Engineers.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Assessment401AZ\\Assessment401AZ\\Models\\Engineers.cs",
               "RelativeDocumentMoniker": "Assessment401AZ\\Models\\Engineers.cs",
-              "ToolTip": "C:\\Users\\gambi\\Desktop\\Assessment401AZ\\Assessment401AZ\\Models\\Engineers.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Assessment401AZ\\Assessment401AZ\\Models\\Engineers.cs",
               "RelativeToolTip": "Assessment401AZ\\Models\\Engineers.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -349,23 +366,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "ProjectFiles.cs",
-              "DocumentMoniker": "C:\\Users\\gambi\\Desktop\\Assessment401AZ\\Assessment401AZ\\Models\\ProjectFiles.cs",
-              "RelativeDocumentMoniker": "Assessment401AZ\\Models\\ProjectFiles.cs",
-              "ToolTip": "C:\\Users\\gambi\\Desktop\\Assessment401AZ\\Assessment401AZ\\Models\\ProjectFiles.cs",
-              "RelativeToolTip": "Assessment401AZ\\Models\\ProjectFiles.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T13:51:00.131Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "AddressForm.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\gambi\\Desktop\\Assessment401AZ\\Assessment401AZ\\GUI\\AddressForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Assessment401AZ\\Assessment401AZ\\GUI\\AddressForm.Designer.cs",
               "RelativeDocumentMoniker": "Assessment401AZ\\GUI\\AddressForm.Designer.cs",
-              "ToolTip": "C:\\Users\\gambi\\Desktop\\Assessment401AZ\\Assessment401AZ\\GUI\\AddressForm.Designer.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Assessment401AZ\\Assessment401AZ\\GUI\\AddressForm.Designer.cs",
               "RelativeToolTip": "Assessment401AZ\\GUI\\AddressForm.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -373,33 +378,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "AddressForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\gambi\\Desktop\\Assessment401AZ\\Assessment401AZ\\GUI\\AddressForm.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Assessment401AZ\\Assessment401AZ\\GUI\\AddressForm.cs",
               "RelativeDocumentMoniker": "Assessment401AZ\\GUI\\AddressForm.cs",
               "ToolTip": "C:\\Users\\gambi\\Desktop\\Assessment401AZ\\Assessment401AZ\\GUI\\AddressForm.cs [Design]",
-              "RelativeToolTip": "Assessment401AZ\\GUI\\AddressForm.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\gambi\\Desktop\\Assessment401AZ\\Assessment401AZ\\GUI\\AddressForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-13T13:54:18.404Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "EngineersForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\gambi\\Desktop\\Assessment401AZ\\Assessment401AZ\\GUI\\EngineersForm.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Assessment401AZ\\Assessment401AZ\\GUI\\EngineersForm.cs",
               "RelativeDocumentMoniker": "Assessment401AZ\\GUI\\EngineersForm.cs",
               "ToolTip": "C:\\Users\\gambi\\Desktop\\Assessment401AZ\\Assessment401AZ\\GUI\\EngineersForm.cs [Design]",
-              "RelativeToolTip": "Assessment401AZ\\GUI\\EngineersForm.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\gambi\\Desktop\\Assessment401AZ\\Assessment401AZ\\GUI\\EngineersForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-13T13:54:38.817Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "EngineersForm.cs",
-              "DocumentMoniker": "C:\\Users\\gambi\\Desktop\\Assessment401AZ\\Assessment401AZ\\GUI\\EngineersForm.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Assessment401AZ\\Assessment401AZ\\GUI\\EngineersForm.cs",
               "RelativeDocumentMoniker": "Assessment401AZ\\GUI\\EngineersForm.cs",
-              "ToolTip": "C:\\Users\\gambi\\Desktop\\Assessment401AZ\\Assessment401AZ\\GUI\\EngineersForm.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Assessment401AZ\\Assessment401AZ\\GUI\\EngineersForm.cs",
               "RelativeToolTip": "Assessment401AZ\\GUI\\EngineersForm.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAF8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -407,11 +412,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "EngineersForm.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\gambi\\Desktop\\Assessment401AZ\\Assessment401AZ\\GUI\\EngineersForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Assessment401AZ\\Assessment401AZ\\GUI\\EngineersForm.Designer.cs",
               "RelativeDocumentMoniker": "Assessment401AZ\\GUI\\EngineersForm.Designer.cs",
-              "ToolTip": "C:\\Users\\gambi\\Desktop\\Assessment401AZ\\Assessment401AZ\\GUI\\EngineersForm.Designer.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Assessment401AZ\\Assessment401AZ\\GUI\\EngineersForm.Designer.cs",
               "RelativeToolTip": "Assessment401AZ\\GUI\\EngineersForm.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -419,23 +424,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "ProjectManagerForm.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\gambi\\Desktop\\Assessment401AZ\\Assessment401AZ\\GUI\\ProjectManagerForm.Designer.cs",
-              "RelativeDocumentMoniker": "Assessment401AZ\\GUI\\ProjectManagerForm.Designer.cs",
-              "ToolTip": "C:\\Users\\gambi\\Desktop\\Assessment401AZ\\Assessment401AZ\\GUI\\ProjectManagerForm.Designer.cs",
-              "RelativeToolTip": "Assessment401AZ\\GUI\\ProjectManagerForm.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T15:35:00.2Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 25,
               "Title": "Assessment401AZ.csproj",
-              "DocumentMoniker": "C:\\Users\\gambi\\Desktop\\Assessment401AZ\\Assessment401AZ\\Assessment401AZ.csproj",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Assessment401AZ\\Assessment401AZ\\Assessment401AZ.csproj",
               "RelativeDocumentMoniker": "Assessment401AZ\\Assessment401AZ.csproj",
-              "ToolTip": "C:\\Users\\gambi\\Desktop\\Assessment401AZ\\Assessment401AZ\\Assessment401AZ.csproj",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Assessment401AZ\\Assessment401AZ\\Assessment401AZ.csproj",
               "RelativeToolTip": "Assessment401AZ\\Assessment401AZ.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",

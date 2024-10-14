@@ -14,6 +14,7 @@ namespace Assessment401AZ.GUI
 {
     public partial class AddressForm : Form
     {
+        private AddressOperations addressOperations = new AddressOperations();
         public AddressForm()
         {
             InitializeComponent();
@@ -25,10 +26,10 @@ namespace Assessment401AZ.GUI
             {
                 Street = txtStreet.Text,
                 City = txtCity.Text,
-                PostCode = txtPostCode.Text,
+                PostCode = Convert.ToInt32(txtPostCode.Text)
             };
 
-            adressOperations.AddAddress(newAddress);
+            addressOperations.AddAddress(newAddress);
             LoadAddresss();
         }
 
@@ -48,7 +49,7 @@ namespace Assessment401AZ.GUI
                 {
                     selectedAddress.Street = txtStreet.Text;
                     selectedAddress.City = txtCity.Text;
-                    selectedAddress.PostCode = txtPostCode.Text;
+                    selectedAddress.PostCode = Convert.ToInt32(txtPostCode.Text);
 
                     addressOperations.UpdateAddress(selectedAddress);
                     LoadAddresss();
@@ -72,7 +73,7 @@ namespace Assessment401AZ.GUI
                 DataGridViewRow selectedRow = dataGridViewAddress.SelectedRows[0];
                 return new Address 
                 {
-                    Id = Convert.ToInt32(selectedRow.Cells["AddressID"].Value),
+                    AddressID = Convert.ToInt32(selectedRow.Cells["AddressID"].Value),
                     Street = Convert.ToString(selectedRow.Cells["Street"].Value),
                     City = Convert.ToString(selectedRow.Cells["City"].Value),
                     PostCode = Convert.ToString(selectedRow.Cells["PostCode"].Value)
