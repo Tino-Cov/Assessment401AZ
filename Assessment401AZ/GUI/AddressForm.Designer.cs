@@ -20,13 +20,18 @@
             base.Dispose(disposing);
         }
 
+        private void InitializeComponent()
+        {
+            InitializeComponent(dataGridViewAddress);
+        }
+
         #region Windows Form Designer generated code
 
         /// <summary>
         /// Required method for Designer support - do not modify
         /// the contents of this method with the code editor.
         /// </summary>
-        private void InitializeComponent()
+        private void InitializeComponent(DataGridView dataGridViewAddress)
         {
             dataGridViewAddress = new DataGridView();
             label1 = new Label();
@@ -51,7 +56,7 @@
             dataGridViewAddress.Name = "dataGridViewAddress";
             dataGridViewAddress.Size = new Size(371, 163);
             dataGridViewAddress.TabIndex = 0;
-            dataGridViewAddress.CellContentClick += dataGridView1_CellContentClick;
+            dataGridViewAddress.CellContentClick += dataGridViewAddress_CellContentClick;
             // 
             // label1
             // 
@@ -193,5 +198,6 @@
         private Button DELETE;
         private Button UPDATE;
         private Button GoToEngineersForm;
+        private DataGridViewCellEventHandler dataGridViewAddress_CellContentClick;
     }
 }

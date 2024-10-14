@@ -76,7 +76,7 @@ namespace Assessment401AZ.GUI
                     AddressID = Convert.ToInt32(selectedRow.Cells["AddressID"].Value),
                     Street = Convert.ToString(selectedRow.Cells["Street"].Value),
                     City = Convert.ToString(selectedRow.Cells["City"].Value),
-                    PostCode = Convert.ToString(selectedRow.Cells["PostCode"].Value)
+                    PostCode = Convert.ToInt32(selectedRow.Cells["PostCode"].Value)
 
                 };
             }

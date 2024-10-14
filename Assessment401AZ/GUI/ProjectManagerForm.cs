@@ -44,12 +44,12 @@ namespace Assessment401AZ.GUI
 
         private void LoadProjectManagers()
         {
-            dataGridView1.DataSource = projectManagerOperations.GetProjectManagers();
+            dataGridViewProjectManager.DataSource = projectManagerOperations.GetProjectManagers();
         }
 
         private void UPDATE_Click(object sender, EventArgs e)
         {
-            if (dataGridView1.SelectedRows.Count > 0)
+            if (dataGridViewProjectManager.SelectedRows.Count > 0)
             {
                 ProjectManager selectedProjectManager = GetSelectedRowProjectManager();
 
@@ -78,9 +78,9 @@ namespace Assessment401AZ.GUI
 
         private ProjectManager GetSelectedRowProjectManager()
         {
-            if (dataGridView1.SelectedRows.Count > 0)
+            if (dataGridViewProjectManager.SelectedRows.Count > 0)
             {
-                DataGridViewRow selectedRow = dataGridView1.SelectedRows[0];
+                DataGridViewRow selectedRow = dataGridViewProjectManager.SelectedRows[0];
                 return new ProjectManager
                 {
                     ManagerID = Convert.ToInt32(selectedRow.Cells["ManagerID"].Value),
@@ -97,7 +97,7 @@ namespace Assessment401AZ.GUI
 
         private void DELETE_Click(object sender, EventArgs e)
         {
-            if (dataGridView1.SelectedRows.Count > 0)
+            if (dataGridViewProjectManager.SelectedRows.Count > 0)
             {
                 int ProjectManagerId = GetSelectedRowProjectManagerId();
 
@@ -120,9 +120,9 @@ namespace Assessment401AZ.GUI
 
         private int GetSelectedRowProjectManagerId()
         {
-            if (dataGridView1.SelectedRows.Count > 0)
+            if (dataGridViewProjectManager.SelectedRows.Count > 0)
             {
-                return Convert.ToInt32(dataGridView1.SelectedRows[0].Cells["ManagerID"].Value);
+                return Convert.ToInt32(dataGridViewProjectManager.SelectedRows[0].Cells["ManagerID"].Value);
             }
 
             return -1;

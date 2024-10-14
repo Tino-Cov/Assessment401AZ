@@ -1,4 +1,5 @@
-﻿namespace Assessment401AZ.GUI
+﻿
+namespace Assessment401AZ.GUI
 {
     partial class EngineersForm
     {
@@ -230,5 +231,10 @@
         private TextBox textBox4;
         private TextBox textBox5;
         private DateTimePicker dateTimePickerDOB;
+        private DataGridViewCellEventHandler dataGridViewEngineers_CellContentClick;
+        private EventHandler button1_Click;
+        private EventHandler button2_Click;
+        private EventHandler button3_Click;
+        private EventHandler label1_Click;
     }
 }
