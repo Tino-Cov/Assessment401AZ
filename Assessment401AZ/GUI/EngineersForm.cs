@@ -31,9 +31,9 @@ namespace Assessment401AZ.GUI
             {
                 FirstName = txtFirstName.Text,
                 LastName = txtLastName.Text,
-                AddressID = txtAddressID.Text,
+                AddressID = Convert.ToInt32(txtAddressID),
                 Dateofbirth = dateTimePickerDOB.Value,
-                Tel = txtTel.Text
+                Tel = Convert.ToInt32(txtTel)
             };
 
             engineerOperations.AddEngineers(newEngineers);
@@ -56,9 +56,9 @@ namespace Assessment401AZ.GUI
                 {
                     selectedEngineers.FirstName = txtFirstName.Text;
                     selectedEngineers.LastName = txtLastName.Text;
-                    selectedEngineers.AddressID = txtAddressID.Text;
+                    selectedEngineers.AddressID = Convert.ToInt32(txtAddressID);
                     selectedEngineers.Dateofbirth = dateTimePickerDOB.Value;
-                    selectedEngineers.Tel = txtTel.Text;
+                    selectedEngineers.Tel = Convert.ToInt32(txtTel);
 
                     engineerOperations.UpdateEngineers(selectedEngineers);
                     LoadEngineerss();
@@ -85,7 +85,7 @@ namespace Assessment401AZ.GUI
                     EngineerID = Convert.ToInt32(selectedRow.Cells["EngineerID"].Value),
                     FirstName = Convert.ToString(selectedRow.Cells["FirstName"].Value),
                     LastName = Convert.ToString(selectedRow.Cells["LastName"].Value),
-                    AddressID = Convert.ToString(selectedRow.Cells["AddressID"].Value),
+                    AddressID = Convert.ToInt32(selectedRow.Cells["AddressID"].Value),
                     Dateofbirth = Convert.ToDateTime(selectedRow.Cells["DateofBirth"].Value),
                     Tel = Convert.ToInt32(selectedRow.Cells["Tel"].Value)
                 };
