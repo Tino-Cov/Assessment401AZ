@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Assessment401AZ.Models
 {
-    public class ProjectFiles : ProjectManager, Engineers
+    public class ProjectFiles : ProjectManager
     {
         public int ProjectID { get; set; }
 
