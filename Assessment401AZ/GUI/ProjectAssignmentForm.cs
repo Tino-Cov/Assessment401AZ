@@ -14,6 +14,7 @@ namespace Assessment401AZ.GUI
 {
     public partial class ProjectAssignmentForm : Form
     {
+        private ProjectAssignmentOperationns projectAssignmentOperationns = new ProjectAssignmentOperationns();
         public ProjectAssignmentForm()
         {
             InitializeComponent();
@@ -22,19 +23,19 @@ namespace Assessment401AZ.GUI
         {
             ProjectAssignment newProjectAssignment = new ProjectAssignment
             {
-                ProjectID = txtProjectID.Text,
+                ProjectID = Convert.ToInt32(txtProjectID),
                 ProjectAddress = txtProjectAddress.Text,
-                ManagerID = txtManagerID.Text,
+                ManagerID = Convert.ToInt32(txtManagerID),
             };
 
-            ProjectAssignmentOperations.AddProjectAssignment(newProjectAssignment);
+            projectAssignmentOperationns.AddProjectAssignment(newProjectAssignment);
             LoadProjectAssignments();
         }
 
 
         private void LoadProjectAssignments()
         {
-            dataGridViewProjectAssignment.DataSource = ProjectAssignmentOperations.GetProjectAssignment();
+            dataGridViewProjectAssignment.DataSource = projectAssignmentOperationns.GetProjectAssignments();
         }
 
         private void UPDATE_Click(object sender, EventArgs e)
@@ -45,11 +46,12 @@ namespace Assessment401AZ.GUI
 
                 if (selectedProjectAssignment != null)
                 {
-                    selectedProjectAssignment.ProjectName = txtProjectName.Text;
+                    selectedProjectAssignment.ProjectName = Convert.ToInt32(txtProjectName);
+                    selectedProjectAssignment.ProjectID = Convert.ToInt32(txtProjectID);
                     selectedProjectAssignment.ProjectAddress = txtProjectAddress.Text;
-                    selectedProjectAssignment.ManagerID = txtManagerID.Text;
+                    selectedProjectAssignment.ManagerID = Convert.ToInt32(txtManagerID);
 
-                    ProjectAssignmentOperations.UpdateProjectAssignment(selectedProjectAssignment);
+                    projectAssignmentOperationns.UpdateProjectAssignment(selectedProjectAssignment);
                     LoadProjectAssignments();
                     ClearProjectAssignmentFields();
                 }
@@ -90,7 +92,7 @@ namespace Assessment401AZ.GUI
 
                 if (ProjectAssignmentId != -1)
                 {
-                    ProjectAssignmentOperations.DeleteProjectAssignment(ProjectAssignmentId);
+                    projectAssignmentOperationns.DeleteProjectAssignment(ProjectAssignmentId);
                     LoadProjectAssignments();
                     ClearProjectAssignmentFields();
                 }
