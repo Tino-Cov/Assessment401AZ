@@ -30,7 +30,7 @@ namespace Assessment401AZ.DBOperations
             dataAccess.ExecuteNonQuery(command);
         }
 
-        public DataTable GetProjectFiless()
+        public DataTable GetProjectFiles()
         {
             string query = "CALL GetProjectFiless()";
             return dataAccess.ExecuteQuery(query);
