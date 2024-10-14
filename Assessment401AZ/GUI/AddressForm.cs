@@ -71,7 +71,7 @@ namespace Assessment401AZ.GUI
             if (dataGridViewAddress.SelectedRows.Count > 0)
             {
                 DataGridViewRow selectedRow = dataGridViewAddress.SelectedRows[0];
-                return new Address 
+                return new Address
                 {
                     AddressID = Convert.ToInt32(selectedRow.Cells["AddressID"].Value),
                     Street = Convert.ToString(selectedRow.Cells["Street"].Value),
@@ -143,7 +143,7 @@ namespace Assessment401AZ.GUI
             txtStreet.Clear();
             txtCity.Clear();
             txtPostCode.Clear();
-        
+
         }
 
         private void label5_Click(object sender, EventArgs e)
