@@ -1,3 +1,5 @@
+using Assessment401AZ.GUI;
+
 namespace Assessment401AZ
 {
     internal static class Program
@@ -11,7 +13,7 @@ namespace Assessment401AZ
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Application.Run(new Form1());
+            Application.Run(new ProjectManagerForm());
         }
     }
 }

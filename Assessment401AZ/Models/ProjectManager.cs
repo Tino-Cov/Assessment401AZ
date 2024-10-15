@@ -12,6 +12,8 @@ namespace Assessment401AZ.Models
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public DateTime Dateofbirth { get; set; }
+
+        public string Management { get; set; } 
         public int Tel { get; set; }
         public string EmailAddress { get; set; }
 

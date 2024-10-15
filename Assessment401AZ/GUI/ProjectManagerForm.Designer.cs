@@ -44,6 +44,8 @@
             ADD = new Button();
             UPDATE = new Button();
             DELETE = new Button();
+            labelManagement = new Label();
+            txtManagmement = new TextBox();
             ((System.ComponentModel.ISupportInitialize)dataGridViewProjectManager).BeginInit();
             SuspendLayout();
             // 
@@ -85,7 +87,7 @@
             // labelEmailAddress
             // 
             labelEmailAddress.AutoSize = true;
-            labelEmailAddress.Location = new Point(41, 386);
+            labelEmailAddress.Location = new Point(41, 425);
             labelEmailAddress.Name = "labelEmailAddress";
             labelEmailAddress.Size = new Size(84, 15);
             labelEmailAddress.TabIndex = 6;
@@ -110,7 +112,7 @@
             // labelTel
             // 
             labelTel.AutoSize = true;
-            labelTel.Location = new Point(41, 325);
+            labelTel.Location = new Point(41, 364);
             labelTel.Name = "labelTel";
             labelTel.Size = new Size(27, 15);
             labelTel.TabIndex = 9;
@@ -139,14 +141,14 @@
             // 
             // txtTel
             // 
-            txtTel.Location = new Point(168, 317);
+            txtTel.Location = new Point(168, 356);
             txtTel.Name = "txtTel";
             txtTel.Size = new Size(204, 23);
             txtTel.TabIndex = 13;
             // 
             // txtEmailAddress
             // 
-            txtEmailAddress.Location = new Point(168, 378);
+            txtEmailAddress.Location = new Point(168, 417);
             txtEmailAddress.Name = "txtEmailAddress";
             txtEmailAddress.Size = new Size(204, 23);
             txtEmailAddress.TabIndex = 14;
@@ -159,6 +161,7 @@
             ADD.TabIndex = 15;
             ADD.Text = "ADD";
             ADD.UseVisualStyleBackColor = true;
+            ADD.Click += ADD_Click_1;
             // 
             // UPDATE
             // 
@@ -168,6 +171,7 @@
             UPDATE.TabIndex = 16;
             UPDATE.Text = "UPDATE";
             UPDATE.UseVisualStyleBackColor = true;
+            UPDATE.Click += UPDATE_Click_1;
             // 
             // DELETE
             // 
@@ -177,12 +181,31 @@
             DELETE.TabIndex = 17;
             DELETE.Text = "DELETE";
             DELETE.UseVisualStyleBackColor = true;
+            DELETE.Click += DELETE_Click_1;
+            // 
+            // labelManagement
+            // 
+            labelManagement.AutoSize = true;
+            labelManagement.Location = new Point(41, 308);
+            labelManagement.Name = "labelManagement";
+            labelManagement.Size = new Size(84, 15);
+            labelManagement.TabIndex = 18;
+            labelManagement.Text = "Management :";
+            // 
+            // txtManagmement
+            // 
+            txtManagmement.Location = new Point(168, 305);
+            txtManagmement.Name = "txtManagmement";
+            txtManagmement.Size = new Size(204, 23);
+            txtManagmement.TabIndex = 19;
             // 
             // ProjectManagerForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1034, 530);
+            ClientSize = new Size(1084, 567);
+            Controls.Add(txtManagmement);
+            Controls.Add(labelManagement);
             Controls.Add(DELETE);
             Controls.Add(UPDATE);
             Controls.Add(ADD);
@@ -224,5 +247,7 @@
         private Button ADD;
         private Button UPDATE;
         private Button DELETE;
+        private Label labelManagement;
+        private TextBox txtManagmement;
     }
 }

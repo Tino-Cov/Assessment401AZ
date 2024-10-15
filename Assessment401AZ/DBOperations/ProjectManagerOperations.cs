@@ -15,46 +15,49 @@ namespace Assessment401AZ.DBOperations
 
         public void AddProjectManager(ProjectManager projectManager)
         {
-            string query = "CALL AddProjectManager(@p_first, @p_lastname, @p_dateofbirth, @p_tel, @p_emailaddress)";
+            string query = "CALL AddProjectManager( @p_FirstName, @p_LastName, @p_Dateofbirth, @p_Management, @p_Tel, @p_EmailAddress)";
             MySqlCommand command = new MySqlCommand(query);
 
-            command.Parameters.AddWithValue("@p_firstname", projectManager.FirstName);
-            command.Parameters.AddWithValue("@p_lastname", projectManager.LastName);
-            command.Parameters.AddWithValue("@p_dateofbirth", projectManager.Dateofbirth.ToString("yyyy-MM-dd"));
-            command.Parameters.AddWithValue("@p_tel", projectManager.Tel);
-            command.Parameters.AddWithValue("@p_emailaddress", projectManager.EmailAddress);
+            
+            command.Parameters.AddWithValue("@p_FirstName", projectManager.FirstName);
+            command.Parameters.AddWithValue("@p_LastName", projectManager.LastName);
+            command.Parameters.AddWithValue("@p_Dateofbirth", projectManager.Dateofbirth.ToString("yyyy-MM-dd"));
+            command.Parameters.AddWithValue("p_Management", projectManager.Management);
+            command.Parameters.AddWithValue("@p_Tel", projectManager.Tel);
+            command.Parameters.AddWithValue("@p_EmailAddress", projectManager.EmailAddress);
 
 
             dataAccess.ExecuteNonQuery(command);
         }
 
-        public DataTable GetProjectManagers()
+        public DataTable GetProjectManager()
         {
-            string query = "CALL GetProjectManagers()";
+            string query = "CALL GetProjectManager()";
             return dataAccess.ExecuteQuery(query);
         }
 
         public void UpdateProjectManager(ProjectManager projectManager)
         {
-            string query = "CALL UpdateProjectManager(@p_managerid, @p_firstname, @p_lastname, @p_emailaddress, @p_dateofbirth)";
+            string query = "CALL UpdateProjectManager(@p_ManagerID, @p_FirstName, @p_LastName, @p_Dateofbirth, @p_Managment, @p_Tel, @p_EmailAddress)";
             MySqlCommand command = new MySqlCommand(query);
 
-            command.Parameters.AddWithValue("@p_managerid", projectManager.ManagerID);
-            command.Parameters.AddWithValue("@p_firstname", projectManager.FirstName);
-            command.Parameters.AddWithValue("@p_lastname", projectManager.LastName);
-            command.Parameters.AddWithValue("@p_dateofbirth", projectManager.Dateofbirth.ToString("yyyy-MM-dd"));
-            command.Parameters.AddWithValue("@p_tel", projectManager.Tel);
-            command.Parameters.AddWithValue("@p_emailaddress", projectManager.EmailAddress);
+            command.Parameters.AddWithValue("@p_ManagerID", projectManager.ManagerID);
+            command.Parameters.AddWithValue("@p_FirstName", projectManager.FirstName);
+            command.Parameters.AddWithValue("@p_LastName", projectManager.LastName);
+            command.Parameters.AddWithValue("@p_Dateofbirth", projectManager.Dateofbirth.ToString("yyyy-MM-dd"));
+            command.Parameters.AddWithValue("p_Management", projectManager.Management);
+            command.Parameters.AddWithValue("@p_Tel", projectManager.Tel);
+            command.Parameters.AddWithValue("@p_EmailAddress", projectManager.EmailAddress);
 
             dataAccess.ExecuteNonQuery(command);
         }
 
         public void DeleteProjectManager(int projectManagerID)
         {
-            string query = "CALL DeleteProjectManager(@p_managerid)";
+            string query = "CALL DeleteProjectManager(@p_ManagerID)";
             MySqlCommand command = new MySqlCommand(query);
 
-            command.Parameters.AddWithValue("@p_managerid", projectManagerID);
+            command.Parameters.AddWithValue("@p_ManagerID", projectManagerID);
 
             dataAccess.ExecuteNonQuery(command);
         }
