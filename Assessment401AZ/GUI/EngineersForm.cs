@@ -26,7 +26,7 @@ namespace Assessment401AZ.GUI
 
 
         private void ADD_Click(object sender, EventArgs e)
-        {
+        {// Add button functions//
             Engineers newEngineers = new Engineers
             {
                 FirstName = txtFirstName.Text,
@@ -47,7 +47,7 @@ namespace Assessment401AZ.GUI
         }
 
         private void UPDATE_Click(object sender, EventArgs e)
-        {
+        {// Update button created//
             if (dataGridViewEngineers.SelectedRows.Count > 0)
             {
                 Engineers selectedEngineers = GetSelectedRowEngineers();
@@ -95,7 +95,7 @@ namespace Assessment401AZ.GUI
         }
 
         private void DELETE_Click(object sender, EventArgs e)
-        {
+        { // delete row function //
             if (dataGridViewEngineers.SelectedRows.Count > 0)
             {
                 int EngineersId = GetSelectedRowEngineersId();
@@ -139,6 +139,73 @@ namespace Assessment401AZ.GUI
         private void label2_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void ADD_Click_1(object sender, EventArgs e)
+        {//Implementing the Add button//
+            Engineers newEngineers = new Engineers
+            {
+                FirstName = txtFirstName.Text,
+                LastName = txtLastName.Text,
+                AddressID = Convert.ToInt32(txtAddressID),
+                Dateofbirth = dateTimePickerDOB.Value,
+                Tel = Convert.ToInt32(txtTel)
+            };
+
+            engineerOperations.AddEngineers(newEngineers);
+            LoadEngineerss();
+        }
+
+        private void UPDATE_Click_1(object sender, EventArgs e)
+        {//Implementing the Update button//
+            if (dataGridViewEngineers.SelectedRows.Count > 0)
+            {
+                Engineers selectedEngineers = GetSelectedRowEngineers();
+
+                if (selectedEngineers != null)
+                {
+                    selectedEngineers.FirstName = txtFirstName.Text;
+                    selectedEngineers.LastName = txtLastName.Text;
+                    selectedEngineers.AddressID = Convert.ToInt32(txtAddressID);
+                    selectedEngineers.Dateofbirth = dateTimePickerDOB.Value;
+                    selectedEngineers.Tel = Convert.ToInt32(txtTel);
+
+                    engineerOperations.UpdateEngineers(selectedEngineers);
+                    LoadEngineerss();
+                    ClearEngineersFields();
+                }
+                else
+                {
+                    MessageBox.Show("Please select a Engineers to update.");
+                }
+            }
+            else
+            {
+                MessageBox.Show("Please select a Engineers to update.");
+            }
+        }
+
+        private void DELETE_Click_1(object sender, EventArgs e)
+        {//Implementing the delete button//
+            if (dataGridViewEngineers.SelectedRows.Count > 0)
+            {
+                int EngineersId = GetSelectedRowEngineersId();
+
+                if (EngineersId != -1)
+                {
+                    engineerOperations.DeleteEngineers(EngineersId);
+                    LoadEngineerss();
+                    ClearEngineersFields();
+                }
+                else
+                {
+                    MessageBox.Show("Please select a engineer to delete.");
+                }
+            }
+            else
+            {
+                MessageBox.Show("Please select a Engineers to delete.");
+            }
         }
     }
 }

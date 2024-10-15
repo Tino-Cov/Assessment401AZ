@@ -21,7 +21,7 @@ namespace Assessment401AZ.GUI
         }
 
         private void ADD_Click(object sender, EventArgs e)
-        {
+        {//Implementing the Add button//
             ProjectFiles newProjectFiles = new ProjectFiles
             {
                 ProjectName = txtProjectName.Text,
@@ -41,7 +41,7 @@ namespace Assessment401AZ.GUI
         }
 
         private void UPDATE_Click(object sender, EventArgs e)
-        {
+        {//Implementing the Update button//
             if (dataGridViewProjectFiles.SelectedRows.Count > 0)
             {
                 ProjectFiles selectedProjectFiles = GetSelectedRowProjectFiles();
@@ -87,7 +87,7 @@ namespace Assessment401AZ.GUI
         }
 
         private void DELETE_Click(object sender, EventArgs e)
-        {
+        {//Implementing the Delete button function//
             if (dataGridViewProjectFiles.SelectedRows.Count > 0)
             {
                 int ProjectFilesId = GetSelectedRowProjectFilesId();
@@ -110,7 +110,7 @@ namespace Assessment401AZ.GUI
         }
 
         private void Go_To_ProjectAssignment_Click(object sender, EventArgs e)
-        {
+        {//go to different form//
             EngineersForm EngineersForm = new EngineersForm();
             EngineersForm.Show();
 
@@ -156,7 +156,7 @@ namespace Assessment401AZ.GUI
         }
 
         private void ADD_Click_1(object sender, EventArgs e)
-        {
+        {//add data button program//
             ProjectFiles newProjectFiles = new ProjectFiles
             {
                 ProjectName = txtProjectName.Text,
@@ -171,7 +171,30 @@ namespace Assessment401AZ.GUI
 
         private void UPDATE_Click_1(object sender, EventArgs e)
         {
+            if (dataGridViewProjectFiles.SelectedRows.Count > 0)
+            {//Implementing the Update button//
+                ProjectFiles selectedProjectFiles = GetSelectedRowProjectFiles();
 
+                if (selectedProjectFiles != null)
+                {
+                    selectedProjectFiles.ProjectName = txtProjectName.Text;
+                    selectedProjectFiles.ProjectStart = dateTimePickerStart.Value;
+                    selectedProjectFiles.ProjectEnd = dateTimePickerEnd.Value;
+                    selectedProjectFiles.ManagerID = Convert.ToInt32(txtManagerID);
+
+                    projectFilesOperations.UpdateProjectFiles(selectedProjectFiles);
+                    LoadProjectFiless();
+                    ClearProjectFilesFields();
+                }
+                else
+                {
+                    MessageBox.Show("Please select a ProjectFiles to update.");
+                }
+            }
+            else
+            {
+                MessageBox.Show("Please select a ProjectFiles to update.");
+            }
         }
     }
 }

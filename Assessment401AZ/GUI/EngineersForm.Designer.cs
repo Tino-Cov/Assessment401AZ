@@ -19,7 +19,7 @@
             }
             base.Dispose(disposing);
         }
-
+        // named all lables and textboxes needed //
         #region Windows Form Designer generated code
 
         /// <summary>
@@ -159,6 +159,7 @@
             ADD.TabIndex = 13;
             ADD.Text = "ADD";
             ADD.UseVisualStyleBackColor = true;
+            ADD.Click += ADD_Click_1;
             // 
             // DELETE
             // 
@@ -168,6 +169,7 @@
             DELETE.TabIndex = 14;
             DELETE.Text = "DELETE";
             DELETE.UseVisualStyleBackColor = true;
+            DELETE.Click += DELETE_Click_1;
             // 
             // UPDATE
             // 
@@ -177,6 +179,7 @@
             UPDATE.TabIndex = 15;
             UPDATE.Text = "UPDATE";
             UPDATE.UseVisualStyleBackColor = true;
+            UPDATE.Click += UPDATE_Click_1;
             // 
             // EngineersForm
             // 

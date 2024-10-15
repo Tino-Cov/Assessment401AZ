@@ -21,7 +21,7 @@ namespace Assessment401AZ.GUI
         }
 
         private void ADD_Click(object sender, EventArgs e)
-        {
+        { // Add button functions//
             Address newAddress = new Address
             {
                 Street = txtStreet.Text,
@@ -36,11 +36,11 @@ namespace Assessment401AZ.GUI
 
         private void LoadAddresss()
         {
-            dataGridViewAddress.DataSource = addressOperations.GetAddresss();
+            dataGridViewAddress.DataSource = addressOperations.GetAddress();
         }
 
         private void UPDATE_Click(object sender, EventArgs e)
-        {
+        { // Update button created//
             if (dataGridViewAddress.SelectedRows.Count > 0)
             {
                 Address selectedAddress = GetSelectedRowAddress();
@@ -67,7 +67,7 @@ namespace Assessment401AZ.GUI
         }
 
         private Address GetSelectedRowAddress()
-        {
+        { 
             if (dataGridViewAddress.SelectedRows.Count > 0)
             {
                 DataGridViewRow selectedRow = dataGridViewAddress.SelectedRows[0];
@@ -85,7 +85,7 @@ namespace Assessment401AZ.GUI
         }
 
         private void DELETE_Click(object sender, EventArgs e)
-        {
+        { // delete row function //
             if (dataGridViewAddress.SelectedRows.Count > 0)
             {
                 int AddressId = GetSelectedRowAddressId();
@@ -108,7 +108,7 @@ namespace Assessment401AZ.GUI
         }
 
         private void Go_To_EngineersForm_Click(object sender, EventArgs e)
-        {
+        { //Go to the engineer form button//
             EngineersForm EngineersForm = new EngineersForm();
             EngineersForm.Show();
 
@@ -129,7 +129,7 @@ namespace Assessment401AZ.GUI
 
 
         private int GetSelectedRowAddressId()
-        {
+        { 
             if (dataGridViewAddress.SelectedRows.Count > 0)
             {
                 return Convert.ToInt32(dataGridViewAddress.SelectedRows[0].Cells["AddressID"].Value);
@@ -149,6 +149,78 @@ namespace Assessment401AZ.GUI
         private void label5_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void ADD_Click_1(object sender, EventArgs e)
+        {//Implementing the Add button//
+            Address newAddress = new Address
+            {
+                Street = txtStreet.Text,
+                City = txtCity.Text,
+                PostCode = txtPostCode.Text
+            };
+
+            addressOperations.AddAddress(newAddress);
+            LoadAddresss();
+
+
+        }
+
+        private void UPDATE_Click_1(object sender, EventArgs e)
+        { //Implementing the Update button//
+            if (dataGridViewAddress.SelectedRows.Count > 0)
+            {
+                Address selectedAddress = GetSelectedRowAddress();
+
+                if (selectedAddress != null)
+                {
+                    selectedAddress.Street = txtStreet.Text;
+                    selectedAddress.City = txtCity.Text;
+                    selectedAddress.PostCode = txtPostCode.Text;
+
+                    addressOperations.UpdateAddress(selectedAddress);
+                    LoadAddresss();
+                    ClearAddressFields();
+                }
+                else
+                {
+                    MessageBox.Show("Please select a Address to update.");
+                }
+            }
+            else
+            {
+                MessageBox.Show("Please select a Address to update.");
+            }
+        }
+
+        private void DELETE_Click_1(object sender, EventArgs e)
+        {//Implementing the delete button//
+            if (dataGridViewAddress.SelectedRows.Count > 0)
+            {
+                int AddressID = GetSelectedRowAddressId();
+
+                if (AddressID != -1)
+                {
+                    addressOperations.DeleteAddress(AddressID);
+                    LoadAddresss();
+                    ClearAddressFields();
+                }
+                else
+                {
+                    MessageBox.Show("Please select a Address to delete.");
+                }
+            }
+            else
+            {
+                MessageBox.Show("Please select a Address to delete.");
+            }
+
+        }
+
+        private void GoToEngineersForm_Click(object sender, EventArgs e)
+        { // Implemented the Next form code//
+            EngineersForm EngineersForm = new EngineersForm();
+            EngineersForm.Show();
         }
     }
 }

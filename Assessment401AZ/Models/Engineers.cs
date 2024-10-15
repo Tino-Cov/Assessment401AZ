@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace Assessment401AZ.Models
 {
-    public class Engineers
-    {
+    public class Engineers : Address
+    {                                                                                   // Comment: Formed My ENgineers Class and attributes including foreign key //
         public int EngineerID { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }

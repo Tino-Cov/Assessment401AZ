@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace Assessment401AZ.Models
 {
-    public class ProjectAssignment : ProjectFiles 
-    {
+    public class ProjectAssignment : ProjectFiles
+    {                                                               // Comment: Formed My ProjectAssignment Class and all attributes along with my foreign key //
         public int ProjectName { get; set; }
 
         public string ProjectManagerList { get; set; }

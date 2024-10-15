@@ -1,7 +1,7 @@
 ﻿namespace Assessment401AZ.GUI
 {
     partial class AddressForm
-    {
+    { // Assigned each label with names for GUI program//
         /// <summary>
         /// Required designer variable.
         /// </summary>
@@ -60,6 +60,7 @@
             ADD.TabIndex = 1;
             ADD.Text = "ADD";
             ADD.UseVisualStyleBackColor = true;
+            ADD.Click += ADD_Click_1;
             // 
             // GoToEngineersForm
             // 
@@ -69,6 +70,7 @@
             GoToEngineersForm.TabIndex = 2;
             GoToEngineersForm.Text = "Go to EngineersForm";
             GoToEngineersForm.UseVisualStyleBackColor = true;
+            GoToEngineersForm.Click += GoToEngineersForm_Click;
             // 
             // DELETE
             // 
@@ -78,6 +80,7 @@
             DELETE.TabIndex = 3;
             DELETE.Text = "DELETE";
             DELETE.UseVisualStyleBackColor = true;
+            DELETE.Click += DELETE_Click_1;
             // 
             // UPDATE
             // 
@@ -87,6 +90,7 @@
             UPDATE.TabIndex = 4;
             UPDATE.Text = "UPDATE";
             UPDATE.UseVisualStyleBackColor = true;
+            UPDATE.Click += UPDATE_Click_1;
             // 
             // labelAddressID
             // 

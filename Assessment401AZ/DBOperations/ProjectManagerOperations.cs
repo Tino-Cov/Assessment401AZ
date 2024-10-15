@@ -10,11 +10,11 @@ using System.Threading.Tasks;
 namespace Assessment401AZ.DBOperations
 {
     public class ProjectManagerOperations
-    {
+    {//creating operations//
         private readonly DataAccess dataAccess = new DataAccess();
 
         public void AddProjectManager(ProjectManager projectManager)
-        {
+        { //adding projectmanager variables //
             string query = "CALL AddProjectManager( @p_FirstName, @p_LastName, @p_Dateofbirth, @p_Management, @p_Tel, @p_EmailAddress)";
             MySqlCommand command = new MySqlCommand(query);
 
@@ -37,7 +37,7 @@ namespace Assessment401AZ.DBOperations
         }
 
         public void UpdateProjectManager(ProjectManager projectManager)
-        {
+        {//created update function for gui//
             string query = "CALL UpdateProjectManager(@p_ManagerID, @p_FirstName, @p_LastName, @p_Dateofbirth, @p_Management, @p_Tel, @p_EmailAddress)";
             MySqlCommand command = new MySqlCommand(query);
 
@@ -53,7 +53,7 @@ namespace Assessment401AZ.DBOperations
         }
 
         public void DeleteProjectManager(int projectManagerID)
-        {
+        { // delete function //
             string query = "CALL DeleteProjectManager(@p_ManagerID)";
             MySqlCommand command = new MySqlCommand(query);
 

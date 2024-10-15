@@ -10,11 +10,11 @@ using System.Threading.Tasks;
 namespace Assessment401AZ.DBOperations
 {
     public class EngineersOperations
-    {
+    {//creating operations//
         private readonly DataAccess dataAccess = new DataAccess();
 
         public void AddEngineers(Engineers engineers)
-        {
+        {//adding Engineer variables //
             string query = "CALL AddEngineers(@p_first, @p_lastname, @p_dateofbirth, @p_tel, @p_addressid)";
             MySqlCommand command = new MySqlCommand(query);
 
@@ -35,7 +35,7 @@ namespace Assessment401AZ.DBOperations
         }
 
         public void UpdateEngineers(Engineers engineers)
-        {
+        {//created update function for gui//
             string query = "CALL UpdateEngineers(@p_engineerid, @p_firstname, @p_lastname, @p_addressid, @p_dateofbirth)";
             MySqlCommand command = new MySqlCommand(query);
 
@@ -50,7 +50,7 @@ namespace Assessment401AZ.DBOperations
         }
 
         public void DeleteEngineers(int engineersID)
-        {
+        { // delete function //
             string query = "CALL DeleteEngineers(@p_engineerid)";
             MySqlCommand command = new MySqlCommand(query);
 

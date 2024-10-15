@@ -20,7 +20,7 @@ namespace Assessment401AZ.GUI
             InitializeComponent();
         }
         private void ADD_Click(object sender, EventArgs e)
-        {
+        {//Implementing the Add button//
             ProjectAssignment newProjectAssignment = new ProjectAssignment
             {
                 ProjectManagerList = txtProjectManagerList.Text,
@@ -40,7 +40,7 @@ namespace Assessment401AZ.GUI
         }
 
         private void UPDATE_Click(object sender, EventArgs e)
-        {
+        {//Implementing the update button//
             if (dataGridViewProjectAssignment.SelectedRows.Count > 0)
             {
                 ProjectAssignment selectedProjectAssignment = GetSelectedRowProjectAssignment();
@@ -87,7 +87,7 @@ namespace Assessment401AZ.GUI
         }
 
         private void DELETE_Click(object sender, EventArgs e)
-        {
+        {//Implementing the delete button//
             if (dataGridViewProjectAssignment.SelectedRows.Count > 0)
             {
                 int ProjectAssignmentId = GetSelectedRowProjectAssignmentId();
@@ -110,7 +110,7 @@ namespace Assessment401AZ.GUI
         }
 
         private void Go_To_ProjectFiles_Click(object sender, EventArgs e)
-        {
+        {//go to projectfile//
             EngineersForm EngineersForm = new EngineersForm();
             EngineersForm.Show();
 
@@ -141,7 +141,7 @@ namespace Assessment401AZ.GUI
         }
 
         private void ClearProjectAssignmentFields()
-        {
+        {//clear all fields//
             txtProjectName.Clear();
             txtProjectAddress.Clear();
             txtProjectManagerList.Clear();
@@ -154,7 +154,17 @@ namespace Assessment401AZ.GUI
         }
 
         private void ADD_Click_1(object sender, EventArgs e)
-        {
+        {//Implementing the Add button//
+            ProjectAssignment newProjectAssignment = new ProjectAssignment
+            {
+                ProjectManagerList = txtProjectManagerList.Text,
+                ProjectID = Convert.ToInt32(txtProjectID),
+                ProjectAddress = txtProjectAddress.Text,
+
+            };
+
+            projectAssignmentOperationns.AddProjectAssignment(newProjectAssignment);
+            LoadProjectAssignments();
 
         }
     }

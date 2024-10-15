@@ -19,7 +19,7 @@
             }
             base.Dispose(disposing);
         }
-
+        // named all lables and textboxes needed //
         #region Windows Form Designer generated code
 
         /// <summary>

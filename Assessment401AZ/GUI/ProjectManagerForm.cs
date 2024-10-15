@@ -27,7 +27,7 @@ namespace Assessment401AZ.GUI
 
 
         private void ADD_Click(object sender, EventArgs e)
-        {
+        {//add functions formed//
             ProjectManager newProjectManager = new ProjectManager
             {
              
@@ -50,7 +50,7 @@ namespace Assessment401AZ.GUI
         }
 
         private void UPDATE_Click(object sender, EventArgs e)
-        {
+        {//update click function created//
             if (dataGridViewProjectManager.SelectedRows.Count > 0)
             {
                 ProjectManager selectedProjectManager = GetSelectedRowProjectManager();
@@ -101,7 +101,7 @@ namespace Assessment401AZ.GUI
         }
 
         private void DELETE_Click(object sender, EventArgs e)
-        {
+        {//delete button made//
             if (dataGridViewProjectManager.SelectedRows.Count > 0)
             {
                 int ProjectManagerId = GetSelectedRowProjectManagerId();
@@ -134,7 +134,7 @@ namespace Assessment401AZ.GUI
         }
 
         private void ClearProjectManagerFields()
-        {
+        {//clear all fields//
             TxtManagerID.Clear();
             txtFirstName.Clear();
             txtLastName.Clear();
@@ -145,7 +145,7 @@ namespace Assessment401AZ.GUI
         }
 
         private void ADD_Click_1(object sender, EventArgs e)
-        {
+        {//Add button function//
             ProjectManager newProjectManager = new ProjectManager
             {
                 
@@ -162,7 +162,7 @@ namespace Assessment401AZ.GUI
         }
 
         private void UPDATE_Click_1(object sender, EventArgs e)
-        {
+        {//update feature prpgrammed//
             if (dataGridViewProjectManager.SelectedRows.Count > 0)
             {
                 ProjectManager selectedProjectManager = GetSelectedRowProjectManager();
@@ -193,7 +193,7 @@ namespace Assessment401AZ.GUI
         }
 
         private void DELETE_Click_1(object sender, EventArgs e)
-        {
+        {//delete rows of data programmed//
             if (dataGridViewProjectManager.SelectedRows.Count > 0)
             {
                 int ProjectManagerId = GetSelectedRowProjectManagerId();

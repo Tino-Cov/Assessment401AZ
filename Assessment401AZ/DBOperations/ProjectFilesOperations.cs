@@ -9,12 +9,12 @@ using System.Threading.Tasks;
 
 namespace Assessment401AZ.DBOperations
 {
-    public class ProjectFilesOperations 
-    {
+    public class ProjectFilesOperations
+    {//creating operations//
         private readonly DataAccess dataAccess = new DataAccess();
 
         public void AddProjectFiles(ProjectFiles projectFiles)
-        {
+        {//adding projectfiles variables //
             string query = "CALL AddProjectFiles(@p_ProjectName, @p_ProjectStart, @p_ProjectEnd, @p_ProjectAddress, @p_ManagerID)";
             MySqlCommand command = new MySqlCommand(query);
 
@@ -36,11 +36,11 @@ namespace Assessment401AZ.DBOperations
         }
 
         public void UpdateProjectFiles(ProjectFiles projectFiles)
-        {
-            string query = "CALL UpdateProjectFiles(@p_id, @p_ProjectName, @p_ProjectStart, @p_ProjectEnd, @p_ProjectAddress, @p_ManagerID)";
+        {//created update function for gui//
+            string query = "CALL UpdateProjectFiles(@p_ProjectID, @p_ProjectName, @p_ProjectStart, @p_ProjectEnd, @p_ProjectAddress, @p_ManagerID)";
             MySqlCommand command = new MySqlCommand(query);
 
-            command.Parameters.AddWithValue("@p_id", projectFiles.ProjectID);
+            command.Parameters.AddWithValue("@p_ProjectID", projectFiles.ProjectID);
             command.Parameters.AddWithValue("@p_ProjectName", projectFiles.ProjectName);
             command.Parameters.AddWithValue("@p_ProjectStart", projectFiles.ProjectStart);
             command.Parameters.AddWithValue("@p_ProjectEnd", projectFiles.ProjectEnd);
@@ -51,11 +51,11 @@ namespace Assessment401AZ.DBOperations
         }
 
         public void DeleteProjectFiles(int projectFilesId)
-        {
-            string query = "CALL DeleteProjectFiles(@p_id)";
+        { // delete function //
+            string query = "CALL DeleteProjectFiles(@p_ProjectID)";
             MySqlCommand command = new MySqlCommand(query);
 
-            command.Parameters.AddWithValue("@p_id", projectFilesId);
+            command.Parameters.AddWithValue("@p_ProjectID", projectFilesId);
 
             dataAccess.ExecuteNonQuery(command);
         }

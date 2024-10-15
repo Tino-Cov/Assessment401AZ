@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Assessment401AZ
 {
-    public class DataAccess
+    public class DataAccess                                                               // Comment: Formed My DataAccess retreving my database to utilise mySQL program //
     {
         private readonly string connectionString = "Server=assessment401az.ci17jcpofb3i.us-east-1.rds.amazonaws.com;Database=Assessment401AZ;User ID=admin;Password=Tinotenda220804.;Convert Zero Datetime=True;";
 
