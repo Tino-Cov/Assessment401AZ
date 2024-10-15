@@ -22,7 +22,7 @@ namespace Assessment401AZ.DBOperations
             command.Parameters.AddWithValue("@p_FirstName", projectManager.FirstName);
             command.Parameters.AddWithValue("@p_LastName", projectManager.LastName);
             command.Parameters.AddWithValue("@p_Dateofbirth", projectManager.Dateofbirth.ToString("yyyy-MM-dd"));
-            command.Parameters.AddWithValue("p_Management", projectManager.Management);
+            command.Parameters.AddWithValue("@p_Management", projectManager.Management);
             command.Parameters.AddWithValue("@p_Tel", projectManager.Tel);
             command.Parameters.AddWithValue("@p_EmailAddress", projectManager.EmailAddress);
 
@@ -38,14 +38,14 @@ namespace Assessment401AZ.DBOperations
 
         public void UpdateProjectManager(ProjectManager projectManager)
         {
-            string query = "CALL UpdateProjectManager(@p_ManagerID, @p_FirstName, @p_LastName, @p_Dateofbirth, @p_Managment, @p_Tel, @p_EmailAddress)";
+            string query = "CALL UpdateProjectManager(@p_ManagerID, @p_FirstName, @p_LastName, @p_Dateofbirth, @p_Management, @p_Tel, @p_EmailAddress)";
             MySqlCommand command = new MySqlCommand(query);
 
             command.Parameters.AddWithValue("@p_ManagerID", projectManager.ManagerID);
             command.Parameters.AddWithValue("@p_FirstName", projectManager.FirstName);
             command.Parameters.AddWithValue("@p_LastName", projectManager.LastName);
             command.Parameters.AddWithValue("@p_Dateofbirth", projectManager.Dateofbirth.ToString("yyyy-MM-dd"));
-            command.Parameters.AddWithValue("p_Management", projectManager.Management);
+            command.Parameters.AddWithValue("@p_Management", projectManager.Management);
             command.Parameters.AddWithValue("@p_Tel", projectManager.Tel);
             command.Parameters.AddWithValue("@p_EmailAddress", projectManager.EmailAddress);
 

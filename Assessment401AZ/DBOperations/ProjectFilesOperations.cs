@@ -15,14 +15,14 @@ namespace Assessment401AZ.DBOperations
 
         public void AddProjectFiles(ProjectFiles projectFiles)
         {
-            string query = "CALL AddProjectFiles(@p_projectname, @p_projectstart, @p_projectend, @p_projectaddress, @p_managerid)";
+            string query = "CALL AddProjectFiles(@p_ProjectName, @p_ProjectStart, @p_ProjectEnd, @p_ProjectAddress, @p_ManagerID)";
             MySqlCommand command = new MySqlCommand(query);
 
-            command.Parameters.AddWithValue("@p_projectname", projectFiles.ProjectName);
-            command.Parameters.AddWithValue("@p_projectstart", projectFiles.ProjectStart);
-            command.Parameters.AddWithValue("@p_projectend", projectFiles.ProjectEnd);
-            command.Parameters.AddWithValue("@p_projectaddress", projectFiles.ProjectAddress);
-            command.Parameters.AddWithValue("@p_managerid", projectFiles.ManagerID);
+            command.Parameters.AddWithValue("@p_ProjectName", projectFiles.ProjectName);
+            command.Parameters.AddWithValue("@p_ProjectStart", projectFiles.ProjectStart);
+            command.Parameters.AddWithValue("@p_ProjectEnd", projectFiles.ProjectEnd);
+            command.Parameters.AddWithValue("@p_ProjectAddress", projectFiles.ProjectAddress);
+            command.Parameters.AddWithValue("@p_ManagerID", projectFiles.ManagerID);
 
 
 
@@ -37,15 +37,15 @@ namespace Assessment401AZ.DBOperations
 
         public void UpdateProjectFiles(ProjectFiles projectFiles)
         {
-            string query = "CALL UpdateProjectFiles(@p_id, @p_projectname, @p_projectstart, @p_projectend, @p_projectaddress, @p_managerid)";
+            string query = "CALL UpdateProjectFiles(@p_id, @p_ProjectName, @p_ProjectStart, @p_ProjectEnd, @p_ProjectAddress, @p_ManagerID)";
             MySqlCommand command = new MySqlCommand(query);
 
             command.Parameters.AddWithValue("@p_id", projectFiles.ProjectID);
-            command.Parameters.AddWithValue("@p_projectname", projectFiles.ProjectName);
-            command.Parameters.AddWithValue("@p_projectstart", projectFiles.ProjectStart);
-            command.Parameters.AddWithValue("@p_projectend", projectFiles.ProjectEnd);
+            command.Parameters.AddWithValue("@p_ProjectName", projectFiles.ProjectName);
+            command.Parameters.AddWithValue("@p_ProjectStart", projectFiles.ProjectStart);
+            command.Parameters.AddWithValue("@p_ProjectEnd", projectFiles.ProjectEnd);
             command.Parameters.AddWithValue("@p_projec taddress", projectFiles.ProjectAddress);
-            command.Parameters.AddWithValue("@p_managerid", projectFiles.ManagerID);
+            command.Parameters.AddWithValue("@p_ManagerID", projectFiles.ManagerID);
 
             dataAccess.ExecuteNonQuery(command);
         }

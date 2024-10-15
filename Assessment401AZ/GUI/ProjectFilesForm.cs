@@ -154,5 +154,24 @@ namespace Assessment401AZ.GUI
         {
 
         }
+
+        private void ADD_Click_1(object sender, EventArgs e)
+        {
+            ProjectFiles newProjectFiles = new ProjectFiles
+            {
+                ProjectName = txtProjectName.Text,
+                ProjectStart = dateTimePickerStart.Value,
+                ProjectEnd = dateTimePickerEnd.Value,
+                ManagerID = Convert.ToInt32(txtManagerID)
+            };
+
+            projectFilesOperations.AddProjectFiles(newProjectFiles);
+            LoadProjectFiless();
+        }
+
+        private void UPDATE_Click_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }

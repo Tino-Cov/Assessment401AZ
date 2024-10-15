@@ -160,6 +160,7 @@
             ADD.TabIndex = 15;
             ADD.Text = "ADD";
             ADD.UseVisualStyleBackColor = true;
+            ADD.Click += ADD_Click_1;
             // 
             // DELETE
             // 
@@ -178,6 +179,7 @@
             UPDATE.TabIndex = 17;
             UPDATE.Text = "UPDATE";
             UPDATE.UseVisualStyleBackColor = true;
+            UPDATE.Click += UPDATE_Click_1;
             // 
             // Go_To_ProjectAssignment
             // 
