@@ -23,9 +23,10 @@ namespace Assessment401AZ.GUI
         {
             ProjectAssignment newProjectAssignment = new ProjectAssignment
             {
+                ProjectManagerList = txtProjectManagerList.Text,
                 ProjectID = Convert.ToInt32(txtProjectID),
                 ProjectAddress = txtProjectAddress.Text,
-                ManagerID = Convert.ToInt32(txtManagerID),
+               
             };
 
             projectAssignmentOperationns.AddProjectAssignment(newProjectAssignment);
@@ -49,7 +50,7 @@ namespace Assessment401AZ.GUI
                     selectedProjectAssignment.ProjectName = Convert.ToInt32(txtProjectName);
                     selectedProjectAssignment.ProjectID = Convert.ToInt32(txtProjectID);
                     selectedProjectAssignment.ProjectAddress = txtProjectAddress.Text;
-                    selectedProjectAssignment.ManagerID = Convert.ToInt32(txtManagerID);
+                    selectedProjectAssignment.ProjectManagerList = txtProjectManagerList.Text;
 
                     projectAssignmentOperationns.UpdateProjectAssignment(selectedProjectAssignment);
                     LoadProjectAssignments();
@@ -74,9 +75,10 @@ namespace Assessment401AZ.GUI
                 return new ProjectAssignment
                 {
                     ProjectName = Convert.ToInt32(selectedRow.Cells["ProjectName"].Value),
+                    ProjectManagerList = Convert.ToString(selectedRow.Cells["ProjectManagerList"].Value),
                     ProjectID = Convert.ToInt32(selectedRow.Cells["ProjectID"].Value),
                     ProjectAddress = Convert.ToString(selectedRow.Cells["ProjectAddress"].Value),
-                    ManagerID = Convert.ToInt32(selectedRow.Cells["ManagerID"].Value),
+                   
 
                 };
             }
@@ -123,7 +125,7 @@ namespace Assessment401AZ.GUI
         {
             txtProjectName.Clear();
             txtProjectAddress.Clear();
-            txtManagerID.Clear();
+            txtProjectManagerList.Clear();
         }
 
 
@@ -142,11 +144,16 @@ namespace Assessment401AZ.GUI
         {
             txtProjectName.Clear();
             txtProjectAddress.Clear();
-            txtManagerID.Clear();
+            txtProjectManagerList.Clear();
 
         }
 
         private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ADD_Click_1(object sender, EventArgs e)
         {
 
         }

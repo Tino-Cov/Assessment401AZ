@@ -26,7 +26,7 @@ namespace Assessment401AZ.GUI
             {
                 Street = txtStreet.Text,
                 City = txtCity.Text,
-                PostCode = Convert.ToInt32(txtPostCode.Text)
+                PostCode = txtPostCode.Text
             };
 
             addressOperations.AddAddress(newAddress);
@@ -49,7 +49,7 @@ namespace Assessment401AZ.GUI
                 {
                     selectedAddress.Street = txtStreet.Text;
                     selectedAddress.City = txtCity.Text;
-                    selectedAddress.PostCode = Convert.ToInt32(txtPostCode.Text);
+                    selectedAddress.PostCode = txtPostCode.Text;
 
                     addressOperations.UpdateAddress(selectedAddress);
                     LoadAddresss();
@@ -76,7 +76,7 @@ namespace Assessment401AZ.GUI
                     AddressID = Convert.ToInt32(selectedRow.Cells["AddressID"].Value),
                     Street = Convert.ToString(selectedRow.Cells["Street"].Value),
                     City = Convert.ToString(selectedRow.Cells["City"].Value),
-                    PostCode = Convert.ToInt32(selectedRow.Cells["PostCode"].Value)
+                    PostCode = Convert.ToString(selectedRow.Cells["PostCode"].Value)
 
                 };
             }

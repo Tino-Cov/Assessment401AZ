@@ -6,14 +6,16 @@ using System.Threading.Tasks;
 
 namespace Assessment401AZ.Models
 {
-    public class ProjectAssignment : ProjectManager 
+    public class ProjectAssignment : ProjectFiles 
     {
         public int ProjectName { get; set; }
 
+        public string ProjectManagerList { get; set; }
+ 
         public int ProjectID { get; set; }
 
         public string ProjectAddress { get; set; }
 
-        public int ManagerID { get; set; }
+
     }
 }

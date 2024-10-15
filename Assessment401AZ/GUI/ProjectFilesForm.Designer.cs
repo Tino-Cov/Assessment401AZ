@@ -31,7 +31,6 @@
             dataGridViewProjectFiles = new DataGridView();
             labelProjectID = new Label();
             labelProjectAddress = new Label();
-            labelEngineerID = new Label();
             labelManagerID = new Label();
             labelProjectEnd = new Label();
             labelProjectStart = new Label();
@@ -40,7 +39,6 @@
             dateTimePickerEnd = new DateTimePicker();
             txtProjectID = new TextBox();
             txtManagerID = new TextBox();
-            txtEngineerID = new TextBox();
             txtProjectAddress = new TextBox();
             txtProjectName = new TextBox();
             ADD = new Button();
@@ -75,15 +73,6 @@
             labelProjectAddress.Size = new Size(92, 15);
             labelProjectAddress.TabIndex = 2;
             labelProjectAddress.Text = "ProjectAddress :";
-            // 
-            // labelEngineerID
-            // 
-            labelEngineerID.AutoSize = true;
-            labelEngineerID.Location = new Point(46, 296);
-            labelEngineerID.Name = "labelEngineerID";
-            labelEngineerID.Size = new Size(70, 15);
-            labelEngineerID.TabIndex = 3;
-            labelEngineerID.Text = "EngineerID :";
             // 
             // labelManagerID
             // 
@@ -149,13 +138,6 @@
             txtManagerID.Size = new Size(200, 23);
             txtManagerID.TabIndex = 11;
             // 
-            // txtEngineerID
-            // 
-            txtEngineerID.Location = new Point(145, 293);
-            txtEngineerID.Name = "txtEngineerID";
-            txtEngineerID.Size = new Size(200, 23);
-            txtEngineerID.TabIndex = 12;
-            // 
             // txtProjectAddress
             // 
             txtProjectAddress.Location = new Point(145, 246);
@@ -217,7 +199,6 @@
             Controls.Add(ADD);
             Controls.Add(txtProjectName);
             Controls.Add(txtProjectAddress);
-            Controls.Add(txtEngineerID);
             Controls.Add(txtManagerID);
             Controls.Add(txtProjectID);
             Controls.Add(dateTimePickerEnd);
@@ -226,7 +207,6 @@
             Controls.Add(labelProjectStart);
             Controls.Add(labelProjectEnd);
             Controls.Add(labelManagerID);
-            Controls.Add(labelEngineerID);
             Controls.Add(labelProjectAddress);
             Controls.Add(labelProjectID);
             Controls.Add(dataGridViewProjectFiles);
@@ -242,7 +222,6 @@
         private DataGridView dataGridViewProjectFiles;
         private Label labelProjectID;
         private Label labelProjectAddress;
-        private Label labelEngineerID;
         private Label labelManagerID;
         private Label labelProjectEnd;
         private Label labelProjectStart;
@@ -251,7 +230,6 @@
         private DateTimePicker dateTimePickerEnd;
         private TextBox txtProjectID;
         private TextBox txtManagerID;
-        private TextBox txtEngineerID;
         private TextBox txtProjectAddress;
         private TextBox txtProjectName;
         private Button ADD;

@@ -18,8 +18,6 @@ namespace Assessment401AZ.Models
 
         public string ProjectAddress { get; set; }
 
-        public int EngineerID { get; set; }
-
         public int ManagerID { get; set; }
 
     }

@@ -40,7 +40,7 @@
             txtProjectName = new TextBox();
             txtProjectID = new TextBox();
             txtProjectAddress = new TextBox();
-            txtManagerID = new TextBox();
+            txtProjectManagerList = new TextBox();
             ((System.ComponentModel.ISupportInitialize)dataGridViewProjectAssignment).BeginInit();
             SuspendLayout();
             // 
@@ -60,6 +60,7 @@
             ADD.TabIndex = 1;
             ADD.Text = "ADD";
             ADD.UseVisualStyleBackColor = true;
+            ADD.Click += ADD_Click_1;
             // 
             // UPDATE
             // 
@@ -100,7 +101,7 @@
             // labelProjectID
             // 
             labelProjectID.AutoSize = true;
-            labelProjectID.Location = new Point(15, 135);
+            labelProjectID.Location = new Point(15, 209);
             labelProjectID.Name = "labelProjectID";
             labelProjectID.Size = new Size(61, 15);
             labelProjectID.TabIndex = 6;
@@ -109,7 +110,7 @@
             // labelProjectAddress
             // 
             labelProjectAddress.AutoSize = true;
-            labelProjectAddress.Location = new Point(15, 191);
+            labelProjectAddress.Location = new Point(15, 265);
             labelProjectAddress.Name = "labelProjectAddress";
             labelProjectAddress.Size = new Size(92, 15);
             labelProjectAddress.TabIndex = 7;
@@ -118,11 +119,11 @@
             // labelManagerID
             // 
             labelManagerID.AutoSize = true;
-            labelManagerID.Location = new Point(15, 241);
+            labelManagerID.Location = new Point(15, 142);
             labelManagerID.Name = "labelManagerID";
-            labelManagerID.Size = new Size(71, 15);
+            labelManagerID.Size = new Size(115, 15);
             labelManagerID.TabIndex = 8;
-            labelManagerID.Text = "ManagerID :";
+            labelManagerID.Text = "ProjectManagerList :";
             // 
             // txtProjectName
             // 
@@ -133,31 +134,31 @@
             // 
             // txtProjectID
             // 
-            txtProjectID.Location = new Point(168, 127);
+            txtProjectID.Location = new Point(168, 201);
             txtProjectID.Name = "txtProjectID";
             txtProjectID.Size = new Size(170, 23);
             txtProjectID.TabIndex = 10;
             // 
             // txtProjectAddress
             // 
-            txtProjectAddress.Location = new Point(168, 188);
+            txtProjectAddress.Location = new Point(168, 262);
             txtProjectAddress.Name = "txtProjectAddress";
             txtProjectAddress.Size = new Size(170, 23);
             txtProjectAddress.TabIndex = 11;
             // 
-            // txtManagerID
+            // txtProjectManagerList
             // 
-            txtManagerID.Location = new Point(168, 237);
-            txtManagerID.Name = "txtManagerID";
-            txtManagerID.Size = new Size(170, 23);
-            txtManagerID.TabIndex = 12;
+            txtProjectManagerList.Location = new Point(168, 138);
+            txtProjectManagerList.Name = "txtProjectManagerList";
+            txtProjectManagerList.Size = new Size(170, 23);
+            txtProjectManagerList.TabIndex = 12;
             // 
             // ProjectAssignmentForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1065, 496);
-            Controls.Add(txtManagerID);
+            Controls.Add(txtProjectManagerList);
             Controls.Add(txtProjectAddress);
             Controls.Add(txtProjectID);
             Controls.Add(txtProjectName);
@@ -191,6 +192,6 @@
         private TextBox txtProjectName;
         private TextBox txtProjectID;
         private TextBox txtProjectAddress;
-        private TextBox txtManagerID;
+        private TextBox txtProjectManagerList;
     }
 }

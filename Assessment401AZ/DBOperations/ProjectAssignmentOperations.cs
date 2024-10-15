@@ -15,12 +15,13 @@ namespace Assessment401AZ.DBOperations
 
         public void AddProjectAssignment(Models.ProjectAssignment projectAssignment)
         {
-            string query = "CALL AddProjectAssignment(@p_projectid, @p_projectaddress, @p_managerid)";
+            string query = "CALL AddProjectAssignment(@p_projectid, @p_ProjectManagerList @p_projectaddress, @p_managerid)";
             MySqlCommand command = new MySqlCommand(query);
 
+            command.Parameters.AddWithValue("@p_ProjectManagerList", projectAssignment.ProjectManagerList);
             command.Parameters.AddWithValue("@projectid", projectAssignment.ProjectID);
             command.Parameters.AddWithValue("@p_projectaddress", projectAssignment.ProjectAddress);
-            command.Parameters.AddWithValue("@p_managerid", projectAssignment.ManagerID);
+
 
             dataAccess.ExecuteNonQuery(command);
         }
@@ -33,13 +34,14 @@ namespace Assessment401AZ.DBOperations
 
         public void UpdateProjectAssignment(Models.ProjectAssignment projectAssignment)
         {
-            string query = "CALL UpdateProjectAssignment(@p_projectname, @projectid, @p_projectaddress, @p_managerid)";
+            string query = "CALL UpdateProjectAssignment(@p_projectname, @p_ProjectManagerList, @projectid, @p_projectaddress)";
             MySqlCommand command = new MySqlCommand(query);
 
-            command.Parameters.AddWithValue("@p_name", projectAssignment.ProjectName);
+            command.Parameters.AddWithValue("@p_projectname", projectAssignment.ProjectName);
+            command.Parameters.AddWithValue("@p_ProjectManagerList", projectAssignment.ProjectManagerList);
             command.Parameters.AddWithValue("@p_projectid", projectAssignment.ProjectID);
             command.Parameters.AddWithValue("@p_projectaddress", projectAssignment.ProjectAddress);
-            command.Parameters.AddWithValue("@p_managerid", projectAssignment.ManagerID);
+
 
             dataAccess.ExecuteNonQuery(command);
         }

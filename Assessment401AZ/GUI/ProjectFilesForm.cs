@@ -27,7 +27,6 @@ namespace Assessment401AZ.GUI
                 ProjectName = txtProjectName.Text,
                 ProjectStart = dateTimePickerStart.Value,
                 ProjectEnd = dateTimePickerEnd.Value,
-                EngineerID = Convert.ToInt32(txtEngineerID),
                 ManagerID = Convert.ToInt32(txtManagerID)
             };
 
@@ -52,7 +51,6 @@ namespace Assessment401AZ.GUI
                     selectedProjectFiles.ProjectName = txtProjectName.Text;
                     selectedProjectFiles.ProjectStart = dateTimePickerStart.Value;
                     selectedProjectFiles.ProjectEnd = dateTimePickerEnd.Value;
-                    selectedProjectFiles.EngineerID = Convert.ToInt32(txtEngineerID);
                     selectedProjectFiles.ManagerID = Convert.ToInt32(txtManagerID);
 
                     projectFilesOperations.UpdateProjectFiles(selectedProjectFiles);
@@ -80,7 +78,6 @@ namespace Assessment401AZ.GUI
                     ProjectID = Convert.ToInt32(selectedRow.Cells["ProjectID"].Value),
                     ProjectStart = Convert.ToDateTime(selectedRow.Cells["DateOfBirth"].Value),
                     ProjectEnd = Convert.ToDateTime(selectedRow.Cells["DateOfBirth"].Value),
-                    EngineerID = Convert.ToInt32(selectedRow.Cells["ProjectID"].Value),
                     ManagerID = Convert.ToInt32(selectedRow.Cells["ProjectID"].Value),
 
                 };
@@ -129,7 +126,6 @@ namespace Assessment401AZ.GUI
             txtProjectName.Clear();
             dateTimePickerStart.Text = "";
             dateTimePickerEnd.Text = "";
-            txtEngineerID.Clear();
             txtManagerID.Clear();
         }
 
@@ -150,7 +146,6 @@ namespace Assessment401AZ.GUI
             txtProjectName.Clear();
             dateTimePickerStart.Text = "";
             dateTimePickerEnd.Text = "";
-            txtEngineerID.Clear();
             txtManagerID.Clear();
 
         }

@@ -10,7 +10,7 @@ namespace Assessment401AZ
 {
     public class DataAccess
     {
-        private readonly string connectionString = "Server=assignment1.cbnxwekaulzg.us-east-1.rds.amazonaws.com;Database=Assignment401AZ;User ID=admin;Password=Tinotenda220804.;Convert Zero Datetime=True;";
+        private readonly string connectionString = "assessment401az.ci17jcpofb3i.us-east-1.rds.amazonaws.com;Database=Assessment401AZ;User ID=admin;Password=Tinotenda220804.;Convert Zero Datetime=True;";
 
         public DataTable ExecuteQuery(string query)
         {
